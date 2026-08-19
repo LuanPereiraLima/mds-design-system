@@ -9,7 +9,7 @@ Um tema concreto é uma **composição**: uma marca + um modo (claro/escuro). S�
 `superApp`) × **2 modos**, e o mesmo componente serve a todas — o que muda é o
 valor por trás do nome do token, nunca o nome.
 
-📖 **[Storybook](STORYBOOK_URL)** — documentação viva, com seletor de marca e
+📖 **[Storybook](https://luanpereiralima.github.io/mds-design-system/)** — documentação viva, com seletor de marca e
 modo na toolbar.
 
 ## Como usar
@@ -95,7 +95,7 @@ cascatear por todas as marcas e modos.
 
 ## Desenvolvimento
 
-Requer **Node 20**.
+Requer **Node 22**.
 
 ```bash
 npm install
