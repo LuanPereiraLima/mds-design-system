@@ -1,0 +1,6 @@
+{
+  "fontFamily": {
+    "$type": "string",
+    "$value": "{family.secondary}"
+  }
+}

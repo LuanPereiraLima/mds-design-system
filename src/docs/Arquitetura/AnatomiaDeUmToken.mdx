@@ -1,0 +1,69 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { ColorGrid } from '../components';
+
+<Meta title="Arquitetura/Anatomia de um token" />
+
+# Anatomia de um token
+
+## Formato DTCG
+
+Os tokens-fonte em `tokens/` seguem o formato W3C DTCG: cada token é um
+objeto com `$type` (a categoria — `color`, `dimension`, `string`,
+`typography`, `shadow`...) e `$value` (o valor literal, ou um alias entre
+chaves apontando pra outro token).
+
+## Como um alias funciona, na prática
+
+Em `01-brands/mrv/01-brand.mrv.tokens.json`, o papel `primary` não guarda um
+hex — ele aponta pra uma chave do tema ativo:
+
+```json
+"primary": {
+  "$type": "color",
+  "$value": "{mrv.primary}"
+}
+```
+
+Esse alias aponta pra dentro de `01-themes/light/01-theme.light.tokens.json`,
+que por sua vez referencia o valor bruto em
+`00-primitives/colors/00-primitive.raw.tokens.json` — um hex literal, sem mais
+alias. Nenhum desses três arquivos guarda o valor final diretamente: ele só
+existe depois que o Style Dictionary resolve a cadeia inteira e emite a CSS
+custom property correspondente (`--primary`).
+
+O resultado final, ao vivo, para a marca/modo ativos na toolbar:
+
+<ColorGrid names={['primary', 'onPrimary', 'primaryContainer']} />
+
+## Convenção de nomes
+
+<table style={{ width: '100%', fontSize: 14, borderCollapse: 'collapse' }}>
+  <thead>
+    <tr style={{ textAlign: 'left', borderBottom: '2px solid #e0e0e0' }}>
+      <th style={{ padding: '6px 8px' }}>Onde</th>
+      <th style={{ padding: '6px 8px' }}>Convenção</th>
+      <th style={{ padding: '6px 8px' }}>Exemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style={{ borderBottom: '1px solid #eee' }}>
+      <td style={{ padding: '6px 8px' }}>Dentro de <code>tokens/**/*.json</code> (propriedades)</td>
+      <td style={{ padding: '6px 8px' }}>camelCase (Tokens Studio/DTCG)</td>
+      <td style={{ padding: '6px 8px' }}><code>onPrimary</code>, <code>primaryContainer</code></td>
+    </tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}>
+      <td style={{ padding: '6px 8px' }}>CSS custom properties geradas</td>
+      <td style={{ padding: '6px 8px' }}>kebab-case</td>
+      <td style={{ padding: '6px 8px' }}><code>--on-primary</code></td>
+    </tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}>
+      <td style={{ padding: '6px 8px' }}>Chaves de objeto TS geradas</td>
+      <td style={{ padding: '6px 8px' }}>camelCase (preserva o path original)</td>
+      <td style={{ padding: '6px 8px' }}><code>tokens.onPrimary</code></td>
+    </tr>
+  </tbody>
+</table>
+
+Os nomes dentro de `tokens/` **não são renomeados** — o pipeline só deriva a
+convenção kebab-case das CSS custom properties a partir do mesmo `token.path`,
+nunca hardcoda um nome.

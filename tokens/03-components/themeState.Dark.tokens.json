@@ -1,0 +1,6 @@
+{
+  "isDarkMode": {
+    "$type": "boolean",
+    "$value": true
+  }
+}

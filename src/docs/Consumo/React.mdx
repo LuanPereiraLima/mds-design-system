@@ -1,0 +1,52 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Consumo/React" />
+
+# Consumo — React
+
+A lib é publicada como `mds-design-system`. Em desenvolvimento, use
+[`yalc`](https://github.com/wclr/yalc) para linkar no app consumidor:
+
+```bash
+# no repo do design system
+npm run build && npx yalc publish
+
+# no repo consumidor
+npx yalc add mds-design-system
+```
+
+## Componentes (CSS injetado automaticamente)
+
+Basta importar os componentes e envolver a árvore com `BrandProvider`. Não é
+preciso importar nenhum arquivo `.css`: o `BrandProvider` injeta os tokens da
+marca/tema ativos em runtime (via `createGlobalStyle`).
+
+```tsx
+import { BrandProvider, Button, Input } from "mds-design-system";
+
+export function App() {
+  return (
+    <BrandProvider brand="mrv" theme="light">
+      <Button variant="primary">Salvar</Button>
+      <Input placeholder="Digite algo..." />
+    </BrandProvider>
+  );
+}
+```
+
+## CSS custom properties
+
+Dentro de um `BrandProvider`, as variáveis de token ficam disponíveis e
+recalculam conforme a marca/tema:
+
+```css
+.card {
+  background: var(--surface);
+  color: var(--on-surface);
+  border-color: var(--outline);
+}
+```
+
+Com a marca `mrv` e o modo `light` ativos, por exemplo, `--primary` resolve
+para `#079d56`. Trocar a marca ou o tema no `BrandProvider` recalcula todas as
+variáveis automaticamente, sem nenhum import de CSS adicional.

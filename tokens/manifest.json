@@ -1,0 +1,279 @@
+{
+  "name": "Design Tokens",
+  "collections": {
+    "00-primitive": {
+      "modes": {
+        "raw": [
+          "00-primitive.raw.tokens.json"
+        ],
+        "global": [
+          "00-primitive.global.tokens.json"
+        ]
+      }
+    },
+    "00-reference": {
+      "modes": {
+        "brand": [
+          "00-reference.brand.tokens.json"
+        ]
+      }
+    },
+    "01-brand": {
+      "modes": {
+        "mrv": [
+          "01-brand.mrv.tokens.json"
+        ],
+        "sensia": [
+          "01-brand.sensia.tokens.json"
+        ],
+        "luggo": [
+          "01-brand.luggo.tokens.json"
+        ],
+        "mrvCo": [
+          "01-brand.mrvCo.tokens.json"
+        ],
+        "class": [
+          "01-brand.class.tokens.json"
+        ],
+        "mdc": [
+          "01-brand.mdc.tokens.json"
+        ],
+        "urba": [
+          "01-brand.urba.tokens.json"
+        ],
+        "superApp": [
+          "01-brand.superApp.tokens.json"
+        ]
+      }
+    },
+    "01-theme": {
+      "modes": {
+        "light": [
+          "01-theme.light.tokens.json"
+        ],
+        "dark": [
+          "01-theme.dark.tokens.json"
+        ]
+      }
+    },
+    "03-feedback": {
+      "modes": {
+        "info": [
+          "03-feedback.info.tokens.json"
+        ],
+        "critical": [
+          "03-feedback.critical.tokens.json"
+        ],
+        "caution": [
+          "03-feedback.caution.tokens.json"
+        ],
+        "success": [
+          "03-feedback.success.tokens.json"
+        ]
+      }
+    },
+    "03-visual": {
+      "modes": {
+        "primary": [
+          "03-visual.primary.tokens.json"
+        ],
+        "secondary": [
+          "03-visual.secondary.tokens.json"
+        ],
+        "tertiary": [
+          "03-visual.tertiary.tokens.json"
+        ],
+        "complementary": [
+          "03-visual.complementary.tokens.json"
+        ]
+      }
+    },
+    "03-neutral": {
+      "modes": {
+        "surface": [
+          "03-neutral.surface.tokens.json"
+        ],
+        "background": [
+          "03-neutral.background.tokens.json"
+        ],
+        "outline": [
+          "03-neutral.outline.tokens.json"
+        ]
+      }
+    },
+    "02-semantic": {
+      "modes": {
+        "visual": [
+          "02-semantic.visual.tokens.json"
+        ],
+        "feedback": [
+          "02-semantic.feedback.tokens.json"
+        ],
+        "neutral": [
+          "02-semantic.neutral.tokens.json"
+        ]
+      }
+    },
+    "02-interface": {
+      "modes": {
+        "global": [
+          "02-interface.global.tokens.json"
+        ]
+      }
+    },
+    "04-dataView": {
+      "modes": {
+        "Mode 1": [
+          "04-dataView.Mode 1.tokens.json"
+        ]
+      }
+    },
+    "01-spacing": {
+      "modes": {
+        "global": [
+          "01-spacing.global.tokens.json"
+        ]
+      }
+    },
+    "01-radii": {
+      "modes": {
+        "base": [
+          "01-radii.base.tokens.json"
+        ],
+        "producao": [
+          "01-radii.producao.tokens.json"
+        ]
+      }
+    },
+    "01-border": {
+      "modes": {
+        "global": [
+          "01-border.global.tokens.json"
+        ]
+      }
+    },
+    "02-breakpoint": {
+      "modes": {
+        "mobile": [
+          "02-breakpoint.mobile.tokens.json"
+        ],
+        "tablet": [
+          "02-breakpoint.tablet.tokens.json"
+        ],
+        "desktop": [
+          "02-breakpoint.desktop.tokens.json"
+        ],
+        "wide": [
+          "02-breakpoint.wide.tokens.json"
+        ]
+      }
+    },
+    "00-fontScale": {
+      "modes": {
+        "mrv": [
+          "00-fontScale.mrv.tokens.json"
+        ],
+        "superApp": [
+          "00-fontScale.superApp.tokens.json"
+        ],
+        "mdc": [
+          "00-fontScale.mdc.tokens.json"
+        ]
+      }
+    },
+    "01-typography": {
+      "modes": {
+        "global": [
+          "01-typography.global.tokens.json"
+        ]
+      }
+    },
+    "00-fontFamily": {
+      "modes": {
+        "primary": [
+          "00-fontFamily.primary.tokens.json"
+        ],
+        "primaryAlt": [
+          "00-fontFamily.primaryAlt.tokens.json"
+        ],
+        "secondary": [
+          "00-fontFamily.secondary.tokens.json"
+        ],
+        "secondaryAlt": [
+          "00-fontFamily.secondaryAlt.tokens.json"
+        ],
+        "tertiary": [
+          "00-fontFamily.tertiary.tokens.json"
+        ],
+        "mono": [
+          "00-fontFamily.mono.tokens.json"
+        ]
+      }
+    },
+    "00-button": {
+      "modes": {
+        "size": [
+          "00-button.size.large.tokens.json",
+          "00-button.size.mediumL.tokens.json",
+          "00-button.size.mediumS.tokens.json",
+          "00-button.size.small.tokens.json"
+        ],
+        "radius": [
+          "00-button.radius.default.tokens.json",
+          "00-button.radius.small.tokens.json",
+          "00-button.radius.large.tokens.json",
+          "00-button.radius.full.tokens.json"
+        ]
+      }
+    },
+    "02-button": {
+      "modes": {
+        "semantic": [
+          "02-button.semantic.color.tokens.json",
+          "02-button.semantic.feedback.tokens.json",
+          "02-button.semantic.neltral.tokens.json"
+        ]
+      }
+    },
+    "01-button": {
+      "modes": {
+        "style": [
+          "01-button.style.default.tokens.json",
+          "01-button.style.alternate.tokens.json",
+          "01-button.style.inverse.tokens.json"
+        ]
+      }
+    },
+    "input": {
+      "modes": {
+        "radius": [
+          "input.radius.default.tokens.json",
+          "input.radius.small.tokens.json",
+          "input.radius.large.tokens.json",
+          "input.radius.full.tokens.json"
+        ]
+      }
+    },
+    "themeState": {
+      "modes": {
+        "Light": [
+          "themeState.Light.tokens.json"
+        ],
+        "Dark": [
+          "themeState.Dark.tokens.json"
+        ]
+      }
+    }
+  },
+  "styles": {
+    "effect": [
+      "effect.styles.tokens.json"
+    ],
+    "color": [
+      "color.styles.tokens.json"
+    ],
+    "text": [
+      "text.styles.tokens.json"
+    ]
+  }
+}

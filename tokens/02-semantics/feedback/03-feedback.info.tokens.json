@@ -1,0 +1,30 @@
+{
+  "feedbackModifier": {
+    "$type": "string",
+    "$value": "info"
+  },
+  "feedback": {
+    "$type": "color",
+    "$value": "{attention}"
+  },
+  "onFeedback": {
+    "$type": "color",
+    "$value": "{onAttention}"
+  },
+  "feedbackContainer": {
+    "$type": "color",
+    "$value": "{attentionContainer}"
+  },
+  "onFeedbackContainer": {
+    "$type": "color",
+    "$value": "{onAttentionContainer}"
+  },
+  "feedbackSubtle": {
+    "$type": "color",
+    "$value": "{attentionSubtle}"
+  },
+  "feedbackMuted": {
+    "$type": "color",
+    "$value": "{attentionMuted}"
+  }
+}

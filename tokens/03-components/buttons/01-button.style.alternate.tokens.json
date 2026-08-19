@@ -1,0 +1,758 @@
+{
+  "brand": {
+    "preenchido": {
+      "normal": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{visualMuted}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        }
+      },
+      "emFoco": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{visualMuted}"
+        },
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{inversePrimary}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        }
+      },
+      "sobre": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{visualSubtle}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        }
+      },
+      "pressionado": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{visual}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        },
+        "sdColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        }
+      },
+      "desabilitado": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{outlineMuted}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{subtleOnBackground}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{subtleOnBackground}"
+        }
+      },
+      "carregando": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{visualSubtle}"
+        }
+      }
+    },
+    "contornado": {
+      "normal": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{visualSubtle}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{visualSubtle}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{visualSubtle}"
+        }
+      },
+      "emFoco": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{inversePrimary}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{visual}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{visual}"
+        }
+      },
+      "sobre": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{visualMuted}"
+        },
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{visualSubtle}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{visual}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{visual}"
+        }
+      },
+      "pressionado": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{visualSubtle}"
+        },
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{visualSubtle}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        },
+        "sdColor": {
+          "$type": "color",
+          "$value": "{visualMuted}"
+        }
+      },
+      "desabilitado": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        }
+      },
+      "carregando": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{visualMuted}"
+        }
+      }
+    },
+    "naoPreenchido": {
+      "normal": {
+        "labelColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        }
+      },
+      "emFoco": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{inversePrimary}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        }
+      },
+      "sobre": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{visualMuted}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{visual}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{visual}"
+        }
+      },
+      "pressionado": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{visualMuted}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{visual}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{visual}"
+        },
+        "sdColor": {
+          "$type": "color",
+          "$value": "{visualContainer}"
+        }
+      },
+      "desabilitado": {
+        "labelColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        }
+      },
+      "carregando": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{subtleOnBackground}"
+        }
+      }
+    }
+  },
+  "feedback": {
+    "preenchido": {
+      "normal": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{feedbackMuted}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        }
+      },
+      "emFoco": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{feedbackMuted}"
+        },
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        }
+      },
+      "sobre": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{feedbackSubtle}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        }
+      },
+      "pressionado": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{feedbackSubtle}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "sdColor": {
+          "$type": "color",
+          "$value": "{onFeedbackContainer}"
+        }
+      },
+      "desabilitado": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{outlineMuted}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        }
+      },
+      "carregando": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{feedbackSubtle}"
+        }
+      }
+    },
+    "contornado": {
+      "normal": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{feedbackContainer}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        }
+      },
+      "emFoco": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        }
+      },
+      "sobre": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{feedbackMuted}"
+        },
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{feedbackContainer}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        }
+      },
+      "pressionado": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{feedbackSubtle}"
+        },
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{feedbackContainer}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{onFeedbackContainer}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{onFeedbackContainer}"
+        },
+        "sdColor": {
+          "$type": "color",
+          "$value": "{feedbackContainer}"
+        }
+      },
+      "desabilitado": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        }
+      },
+      "carregando": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{feedbackMuted}"
+        }
+      }
+    },
+    "naoPreenchido": {
+      "normal": {
+        "labelColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        }
+      },
+      "emFoco": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        }
+      },
+      "sobre": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{feedbackMuted}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        }
+      },
+      "pressionado": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{feedbackMuted}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{feedback}"
+        },
+        "sdColor": {
+          "$type": "color",
+          "$value": "{onFeedbackContainer}"
+        }
+      },
+      "desabilitado": {
+        "labelColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        }
+      },
+      "carregando": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{subtleOnBackground}"
+        }
+      }
+    }
+  },
+  "neutral": {
+    "preenchido": {
+      "normal": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{backgroundMuted}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{onBackground}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{onBackground}"
+        }
+      },
+      "emFoco": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{backgroundMuted}"
+        },
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{inversePrimary}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{onBackground}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{onBackground}"
+        }
+      },
+      "sobre": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{outlineMuted}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{onBackground}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{onBackground}"
+        }
+      },
+      "pressionado": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{backgroundMuted}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{onBackground}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{onBackground}"
+        },
+        "sdColor": {
+          "$type": "color",
+          "$value": "{onBackground}"
+        }
+      },
+      "desabilitado": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{outlineMuted}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        }
+      },
+      "carregando": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{backgroundMuted}"
+        }
+      }
+    },
+    "contornado": {
+      "normal": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        }
+      },
+      "emFoco": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{inversePrimary}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        }
+      },
+      "sobre": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{backgroundMuted}"
+        },
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        }
+      },
+      "pressionado": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{surfaceMuted}"
+        },
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        },
+        "sdColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        }
+      },
+      "desabilitado": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        }
+      },
+      "carregando": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{mutedOnSurface}"
+        }
+      }
+    },
+    "naoPreenchido": {
+      "normal": {
+        "labelColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        }
+      },
+      "emFoco": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{inversePrimary}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        }
+      },
+      "sobre": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{mutedOnSurface}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        }
+      },
+      "pressionado": {
+        "bgColor": {
+          "$type": "color",
+          "$value": "{mutedOnSurface}"
+        },
+        "labelColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        },
+        "sdColor": {
+          "$type": "color",
+          "$value": "{subtleOnSurface}"
+        }
+      },
+      "desabilitado": {
+        "labelColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{outlineEmphasized}"
+        }
+      },
+      "carregando": {
+        "strokeColor": {
+          "$type": "color",
+          "$value": "{subtleOnBackground}"
+        }
+      }
+    }
+  }
+}

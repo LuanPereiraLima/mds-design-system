@@ -1,0 +1,188 @@
+{
+  "family": {
+    "primary": {
+      "$type": "string",
+      "$value": "Outfit"
+    },
+    "primaryAlt": {
+      "$type": "string",
+      "$value": "Averta Std"
+    },
+    "secondary": {
+      "$type": "string",
+      "$value": "Segoe"
+    },
+    "secondaryAlt": {
+      "$type": "string",
+      "$value": "Open Sans"
+    },
+    "tertiary": {
+      "$type": "string",
+      "$value": "Work Sans"
+    },
+    "mono": {
+      "$type": "string",
+      "$value": "DM Mono"
+    }
+  },
+  "weight": {
+    "thin": {
+      "$type": "dimension",
+      "$value": "100"
+    },
+    "xLight": {
+      "$type": "dimension",
+      "$value": "200"
+    },
+    "light": {
+      "$type": "dimension",
+      "$value": "300"
+    },
+    "regular": {
+      "$type": "dimension",
+      "$value": "400"
+    },
+    "medium": {
+      "$type": "dimension",
+      "$value": "500"
+    },
+    "semiBold": {
+      "$type": "dimension",
+      "$value": "600"
+    },
+    "bold": {
+      "$type": "dimension",
+      "$value": "700"
+    },
+    "xBold": {
+      "$type": "dimension",
+      "$value": "800"
+    },
+    "black": {
+      "$type": "dimension",
+      "$value": "900"
+    }
+  },
+  "size": {
+    "xMini": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "mini": {
+      "$type": "dimension",
+      "$value": "10px"
+    },
+    "xxxSmall": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "xxSmall": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "xSmall": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "small": {
+      "$type": "dimension",
+      "$value": "18px"
+    },
+    "medium": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "large": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "xLarge": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "xxLarge": {
+      "$type": "dimension",
+      "$value": "40px"
+    },
+    "xxxLarge": {
+      "$type": "dimension",
+      "$value": "60px"
+    },
+    "maxi": {
+      "$type": "dimension",
+      "$value": "72px"
+    },
+    "xMaxi": {
+      "$type": "dimension",
+      "$value": "96px"
+    }
+  },
+  "lineHeight": {
+    "mini": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "xxxSmall": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "xxSmall": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "xSmall": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "small": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "medium": {
+      "$type": "dimension",
+      "$value": "40px"
+    },
+    "large": {
+      "$type": "dimension",
+      "$value": "56px"
+    },
+    "xLarge": {
+      "$type": "dimension",
+      "$value": "60px"
+    },
+    "xxLarge": {
+      "$type": "dimension",
+      "$value": "72px"
+    },
+    "xxxLarge": {
+      "$type": "dimension",
+      "$value": "96px"
+    },
+    "maxi": {
+      "$type": "dimension",
+      "$value": "108px"
+    }
+  },
+  "kerning": {
+    "bunchy": {
+      "$type": "dimension",
+      "$value": "-20px"
+    },
+    "narrow": {
+      "$type": "dimension",
+      "$value": "-10px"
+    },
+    "normal": {
+      "$type": "dimension",
+      "$value": "0px"
+    },
+    "wide": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "expanded": {
+      "$type": "dimension",
+      "$value": "50px"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "feedbackModifier": {
+    "$type": "string",
+    "$value": "caution"
+  },
+  "feedback": {
+    "$type": "color",
+    "$value": "{caution}"
+  },
+  "onFeedback": {
+    "$type": "color",
+    "$value": "{onCaution}"
+  },
+  "feedbackContainer": {
+    "$type": "color",
+    "$value": "{cautionContainer}"
+  },
+  "onFeedbackContainer": {
+    "$type": "color",
+    "$value": "{onCautionContainer}"
+  },
+  "feedbackSubtle": {
+    "$type": "color",
+    "$value": "{cautionSubtle}"
+  },
+  "feedbackMuted": {
+    "$type": "color",
+    "$value": "{cautionMuted}"
+  }
+}

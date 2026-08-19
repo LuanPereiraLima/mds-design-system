@@ -1,0 +1,98 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { ColorGrid } from '../components';
+
+<Meta title="Tokens Semânticos/Papéis Semânticos" />
+
+# Papéis Semânticos
+
+Além dos papéis fixos de marca (`primary`, `secondary`...) descritos em
+"Tokens Semânticos → Cores", o MDS oferece três **famílias de papel
+reutilizáveis** — pensadas para componentes cuja função visual, não a marca,
+é o que determina a cor: destaque visual (`visual`), retorno de sistema
+(`feedback`) e base neutra (`neutral`). Os sufixos
+`on`/`Container`/`Subtle`/`Muted` de cada família seguem o mesmo princípio de
+posição e intenção já descrito na página de Cores — aqui aplicado ao papel da
+família em vez de a um papel de marca fixo.
+
+<table style={{ width: '100%', fontSize: 14, borderCollapse: 'collapse', marginBottom: 24 }}>
+  <thead>
+    <tr style={{ textAlign: 'left', borderBottom: '2px solid #e0e0e0' }}>
+      <th style={{ padding: '6px 8px' }}>Família</th>
+      <th style={{ padding: '6px 8px' }}>Papéis</th>
+      <th style={{ padding: '6px 8px' }}>Quando usar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>visual</code></td><td style={{ padding: '6px 8px' }}>primary, secondary, tertiary, complementary</td><td style={{ padding: '6px 8px' }}>O componente varia por <em>canal de destaque</em> (ex.: o <code>variant</code> do Button).</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>feedback</code></td><td style={{ padding: '6px 8px' }}>success, caution, critical, info</td><td style={{ padding: '6px 8px' }}>O componente comunica resultado ou status (alertas, toasts, validação).</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>neutral</code></td><td style={{ padding: '6px 8px' }}>background, outline, surface</td><td style={{ padding: '6px 8px' }}>O componente é estrutural (cards, painéis, divisores).</td></tr>
+  </tbody>
+</table>
+
+## As duas formas
+
+Cada arquivo de papel gera duas formas no build (em
+`src/tokens/css/semantics.css`):
+
+- **Solta** — seletor `[data-<família>="<papel>"]`, com os nomes originais da
+  família (`--visual`, `--on-visual`, `--visual-container`…). Serve a
+  componentes que usam **uma família fixa** e só trocam o papel.
+- **Agregada** — seletor `[data-semantic="<família>"]`, com as chaves
+  renomeadas para `--semantic`, `--on-semantic`, `--semantic-container`…
+  Serve a componentes **versáteis**, que trocam família *e* papel
+  dinamicamente sem mudar o nome da variável que consomem.
+
+As duas apontam para a mesma cor: a forma agregada é um alias da solta, que
+por sua vez aliasa a cor da marca ativa. Combinando os dois atributos no
+mesmo elemento (`data-visual="primary" data-semantic="visual"`), o
+componente lê sempre `var(--semantic)` e o valor continua cascateando por
+marca/modo.
+
+Os grids abaixo aplicam esses seletores ao vivo — o swatch usa
+`var(--visual)` (etc.) e o valor ao lado é a cor de marca resolvida.
+
+export const cap = (s) => `${s[0].toUpperCase()}${s.slice(1)}`;
+export const FIELDS = (fam) => [
+  fam,
+  `on${cap(fam)}`,
+  `${fam}Container`,
+  `on${cap(fam)}Container`,
+  `${fam}Subtle`,
+  `${fam}Muted`,
+];
+export const SEMANTIC_FIELDS = FIELDS('semantic');
+
+export const FAMILIES = [
+  { family: 'visual', roles: ['primary', 'secondary', 'tertiary', 'complementary'] },
+  { family: 'feedback', roles: ['success', 'caution', 'critical', 'info'] },
+  { family: 'neutral', roles: ['background', 'outline', 'surface'] },
+];
+
+export const Families = () => (
+  <>
+    {FAMILIES.map(({ family, roles }) => (
+      <div key={family} style={{ marginBottom: 32 }}>
+        <h2 style={{ textTransform: 'capitalize' }}>{family}</h2>
+        {roles.map((role) => (
+          <ColorGrid
+            key={role}
+            title={`${family}.${role} (forma solta)`}
+            names={FIELDS(family)}
+            attrs={{ [`data-${family}`]: role }}
+          />
+        ))}
+        <p style={{ fontSize: 13, color: '#666' }}>
+          Forma agregada equivalente: mesmos valores de <code>{family}.{roles[0]}</code>,
+          lidos como <code>--semantic*</code>.
+        </p>
+        <ColorGrid
+          title={`semantic.${family}.${roles[0]} (forma agregada, exemplo)`}
+          names={SEMANTIC_FIELDS}
+          attrs={{ [`data-${family}`]: roles[0], 'data-semantic': family }}
+        />
+      </div>
+    ))}
+  </>
+);
+
+<Families />

@@ -1,0 +1,30 @@
+{
+  "semanticModifier": {
+    "$type": "string",
+    "$value": "visual"
+  },
+  "semantic": {
+    "$type": "color",
+    "$value": "{visual}"
+  },
+  "onSemantic": {
+    "$type": "color",
+    "$value": "{onVisual}"
+  },
+  "semanticContainer": {
+    "$type": "color",
+    "$value": "{visualContainer}"
+  },
+  "onSemanticContainer": {
+    "$type": "color",
+    "$value": "{onVisualContainer}"
+  },
+  "semanticSubtle": {
+    "$type": "color",
+    "$value": "{visualSubtle}"
+  },
+  "semanticMuted": {
+    "$type": "color",
+    "$value": "{visualMuted}"
+  }
+}

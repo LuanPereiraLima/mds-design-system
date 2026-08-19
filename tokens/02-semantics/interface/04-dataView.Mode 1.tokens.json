@@ -1,0 +1,122 @@
+{
+  "data-01-base": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-01-weak": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-01-strong": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-02-base": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-02-weak": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-02-strong": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-03-base": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-03-weak": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-03-strong": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-04-base": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-04-weak": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-04-strong": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-05-base": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-05-weak": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-05-strong": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-06-base": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-06-weak": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-06-strong": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-07-base": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-07-weak": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-07-strong": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-08-base": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-08-weak": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-08-strong": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-09-base": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-09-weak": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-09-strong": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-10-base": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-10-weak": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "data-10-strong": {
+    "$type": "color",
+    "$value": "#ffffff"
+  }
+}

@@ -1,0 +1,92 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { TypeScale } from '../components';
+
+<Meta title="Tokens Semânticos/Tipografia" />
+
+# Tipografia
+
+A tipografia define a hierarquia, legibilidade e identidade da comunicação
+de cada produto — este sistema garante consistência visual e facilita a
+escalabilidade entre design e desenvolvimento.
+
+As escalas vêm de `text/typography.global` (tokens compostos) resolvidas
+contra a escala de fonte da marca ativa e emitidas em
+`src/tokens/css/typography.css`, escopadas por `[data-brand]`. Troque a
+**Marca** na toolbar para ver famílias, pesos e tamanhos mudarem.
+
+## Famílias tipográficas
+
+A escala de cada marca expõe seis canais de família. Os papéis de texto
+abaixo resolvem todos para o canal **`primary`** — os demais canais ficam
+disponíveis para uso pontual:
+
+<table style={{ width: '100%', fontSize: 14, borderCollapse: 'collapse' }}>
+  <thead>
+    <tr style={{ textAlign: 'left', borderBottom: '2px solid #e0e0e0' }}>
+      <th style={{ padding: '6px 8px' }}>Canal</th>
+      <th style={{ padding: '6px 8px' }}>MRV (e marcas que replicam sua escala)</th>
+      <th style={{ padding: '6px 8px' }}>MDC</th>
+      <th style={{ padding: '6px 8px' }}>SuperApp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>primary</code></td><td style={{ padding: '6px 8px' }}>Outfit</td><td style={{ padding: '6px 8px' }}>Aileron</td><td style={{ padding: '6px 8px' }}>Outfit</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>primaryAlt</code></td><td style={{ padding: '6px 8px' }}>Averta Std</td><td style={{ padding: '6px 8px' }}>Aileron</td><td style={{ padding: '6px 8px' }}>—</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>secondary</code></td><td style={{ padding: '6px 8px' }}>Segoe</td><td style={{ padding: '6px 8px' }}>Aileron</td><td style={{ padding: '6px 8px' }}>Work Sans</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>secondaryAlt</code></td><td style={{ padding: '6px 8px' }}>Open Sans</td><td style={{ padding: '6px 8px' }}>Aileron</td><td style={{ padding: '6px 8px' }}>—</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>tertiary</code></td><td style={{ padding: '6px 8px' }}>Work Sans</td><td style={{ padding: '6px 8px' }}>Aileron</td><td style={{ padding: '6px 8px' }}>Work Sans</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>mono</code></td><td style={{ padding: '6px 8px' }}>DM Mono</td><td style={{ padding: '6px 8px' }}>Aileron</td><td style={{ padding: '6px 8px' }}>DM Mono</td></tr>
+  </tbody>
+</table>
+
+**Outfit** e **Open Sans** estão disponíveis gratuitamente sob a Open Font
+License. Não são as mesmas famílias aplicadas aos materiais gráficos do
+Marketing (**Averta Std** e **Segoe**, preservadas nos canais `primaryAlt` e
+`secondary`) — a troca se deve a questões de licença e à maior facilidade de
+implementação.
+
+> ℹ️ Desde a entrega de tokens de 18/08/2026, **cada marca tem seu próprio
+> arquivo de escala** em `tokens/01-brands/<marca>/`. Na prática, sensia,
+> luggo, mrvCo, class e urba replicam hoje a escala da mrv; mdc e superApp
+> divergem só nas famílias. As métricas numéricas (peso, tamanho, altura de
+> linha, kerning) são idênticas em todas as marcas.
+
+## Hierarquia semântica
+
+Os tokens semânticos de tipografia combinam **6 categorias × 5 tamanhos**:
+
+<table style={{ width: '100%', fontSize: 14, borderCollapse: 'collapse' }}>
+  <thead>
+    <tr style={{ textAlign: 'left', borderBottom: '2px solid #e0e0e0' }}>
+      <th style={{ padding: '6px 8px' }}>Categoria</th>
+      <th style={{ padding: '6px 8px' }}>Uso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>display</code></td><td style={{ padding: '6px 8px' }}>Destaques e hero</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>headline</code></td><td style={{ padding: '6px 8px' }}>Estrutura de conteúdo com destaque</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>title</code></td><td style={{ padding: '6px 8px' }}>Títulos de conteúdos principais</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>paragraph</code></td><td style={{ padding: '6px 8px' }}>Texto para conteúdo principal (textos corridos)</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>label</code></td><td style={{ padding: '6px 8px' }}>Inputs e botões</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>caption</code></td><td style={{ padding: '6px 8px' }}>Informações auxiliares</td></tr>
+  </tbody>
+</table>
+
+Tamanhos: `xLarge`, `large`, `medium`, `small`, `xSmall`. Cada combinação
+carrega 5 propriedades — família, peso, tamanho, altura de linha e kerning —
+emitidas como vars long-hand
+(`--typography-<papel>-<tamanho>-font-size`, etc.), sempre alimentadas por
+tokens primitivos de fonte.
+
+export const SIZES = ['x-large', 'large', 'medium', 'small', 'x-small'];
+export const ROLES = ['display', 'headline', 'title', 'paragraph', 'label', 'caption'];
+
+export const Scales = () => (
+  <>
+    {ROLES.map((role) => (
+      <TypeScale key={role} title={role} role={role} sizes={SIZES} />
+    ))}
+  </>
+);
+
+<Scales />

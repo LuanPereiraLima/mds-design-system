@@ -1,0 +1,26 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "figma-api-key",
+      "description": "Figma personal access token (figd_...)",
+      "password": true
+    }
+  ],
+  "servers": {
+    "mcp server": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"],
+      "env": {
+        "MEMORY_FILE_PATH": "${workspaceFolder}/ai/mcp-knowledge/memory.jsonl"
+      }
+    },
+    "figma-developer-mcp": {
+      "command": "npx",
+      "args": ["-y", "figma-developer-mcp", "--stdio"],
+      "env": {
+        "FIGMA_API_KEY": "${input:figma-api-key}"
+      }
+    }
+  }
+}

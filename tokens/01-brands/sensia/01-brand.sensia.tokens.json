@@ -1,0 +1,278 @@
+{
+  "brandModifier": {
+    "$type": "string",
+    "$value": "sensia"
+  },
+  "primary": {
+    "$type": "color",
+    "$value": "{sensia.primary}"
+  },
+  "onPrimary": {
+    "$type": "color",
+    "$value": "{sensia.onPrimary}"
+  },
+  "primaryContainer": {
+    "$type": "color",
+    "$value": "{sensia.primaryContainer}"
+  },
+  "onPrimaryContainer": {
+    "$type": "color",
+    "$value": "{sensia.onPrimaryContainer}"
+  },
+  "primarySubtle": {
+    "$type": "color",
+    "$value": "{sensia.primarySubtle}"
+  },
+  "primaryMuted": {
+    "$type": "color",
+    "$value": "{sensia.primaryMuted}"
+  },
+  "secondary": {
+    "$type": "color",
+    "$value": "{sensia.secondary}"
+  },
+  "onSecondary": {
+    "$type": "color",
+    "$value": "{sensia.onSecondary}"
+  },
+  "secondaryContainer": {
+    "$type": "color",
+    "$value": "{sensia.secondaryContainer}"
+  },
+  "onSecondaryContainer": {
+    "$type": "color",
+    "$value": "{sensia.onSecondaryContainer}"
+  },
+  "secondarySubtle": {
+    "$type": "color",
+    "$value": "{sensia.secondarySubtle}"
+  },
+  "secondaryMuted": {
+    "$type": "color",
+    "$value": "{sensia.secondaryMuted}"
+  },
+  "tertiary": {
+    "$type": "color",
+    "$value": "{sensia.tertiary}"
+  },
+  "onTertiary": {
+    "$type": "color",
+    "$value": "{sensia.onTertiary}"
+  },
+  "tertiaryContainer": {
+    "$type": "color",
+    "$value": "{sensia.tertiaryContainer}"
+  },
+  "onTertiaryContainer": {
+    "$type": "color",
+    "$value": "{sensia.onTertiaryContainer}"
+  },
+  "tertiarySubtle": {
+    "$type": "color",
+    "$value": "{sensia.tertiarySubtle}"
+  },
+  "tertiaryMuted": {
+    "$type": "color",
+    "$value": "{sensia.tertiaryMuted}"
+  },
+  "complementary": {
+    "$type": "color",
+    "$value": "{sensia.complementary}"
+  },
+  "onComplementary": {
+    "$type": "color",
+    "$value": "{sensia.onComplementary}"
+  },
+  "complementaryContainer": {
+    "$type": "color",
+    "$value": "{sensia.complementaryContainer}"
+  },
+  "onComplementaryContainer": {
+    "$type": "color",
+    "$value": "{sensia.onComplementaryContainer}"
+  },
+  "complementarySubtle": {
+    "$type": "color",
+    "$value": "{sensia.complementarySubtle}"
+  },
+  "complementaryMuted": {
+    "$type": "color",
+    "$value": "{sensia.complementaryMuted}"
+  },
+  "background": {
+    "$type": "color",
+    "$value": "{sensia.background}"
+  },
+  "backgroundSubtle": {
+    "$type": "color",
+    "$value": "{sensia.backgroundSubtle}"
+  },
+  "backgroundMuted": {
+    "$type": "color",
+    "$value": "{sensia.backgroundMuted}"
+  },
+  "onBackground": {
+    "$type": "color",
+    "$value": "{sensia.onBackground}"
+  },
+  "subtleOnBackground": {
+    "$type": "color",
+    "$value": "{sensia.subtleOnBackground}"
+  },
+  "mutedOnBackground": {
+    "$type": "color",
+    "$value": "{sensia.mutedOnBackground}"
+  },
+  "surface": {
+    "$type": "color",
+    "$value": "{sensia.surface}"
+  },
+  "surfaceSubtle": {
+    "$type": "color",
+    "$value": "{sensia.surfaceSubtle}"
+  },
+  "surfaceMuted": {
+    "$type": "color",
+    "$value": "{sensia.surfaceMuted}"
+  },
+  "onSurface": {
+    "$type": "color",
+    "$value": "{sensia.onSurface}"
+  },
+  "subtleOnSurface": {
+    "$type": "color",
+    "$value": "{sensia.subtleOnSurface}"
+  },
+  "mutedOnSurface": {
+    "$type": "color",
+    "$value": "{sensia.mutedOnSurface}"
+  },
+  "outline": {
+    "$type": "color",
+    "$value": "{sensia.outline}"
+  },
+  "outlineMuted": {
+    "$type": "color",
+    "$value": "{sensia.outlineMuted}"
+  },
+  "outlineEmphasized": {
+    "$type": "color",
+    "$value": "{sensia.outlineEmphasized}"
+  },
+  "inverse": {
+    "$type": "color",
+    "$value": "{sensia.inverse}"
+  },
+  "inversePrimary": {
+    "$type": "color",
+    "$value": "{sensia.inversePrimary}"
+  },
+  "inverseSecondary": {
+    "$type": "color",
+    "$value": "{sensia.inverseSecondary}"
+  },
+  "attention": {
+    "$type": "color",
+    "$value": "{sensia.attention}"
+  },
+  "onAttention": {
+    "$type": "color",
+    "$value": "{sensia.onAttention}"
+  },
+  "attentionContainer": {
+    "$type": "color",
+    "$value": "{sensia.attentionContainer}"
+  },
+  "onAttentionContainer": {
+    "$type": "color",
+    "$value": "{sensia.onAttentionContainer}"
+  },
+  "attentionSubtle": {
+    "$type": "color",
+    "$value": "{sensia.attentionSubtle}"
+  },
+  "attentionMuted": {
+    "$type": "color",
+    "$value": "{sensia.attentionMuted}"
+  },
+  "success": {
+    "$type": "color",
+    "$value": "{sensia.success}"
+  },
+  "onSuccess": {
+    "$type": "color",
+    "$value": "{sensia.onSuccess}"
+  },
+  "successContainer": {
+    "$type": "color",
+    "$value": "{sensia.successContainer}"
+  },
+  "onSuccessContainer": {
+    "$type": "color",
+    "$value": "{sensia.onSuccessContainer}"
+  },
+  "successSubtle": {
+    "$type": "color",
+    "$value": "{sensia.successSubtle}"
+  },
+  "successMuted": {
+    "$type": "color",
+    "$value": "{sensia.successMuted}"
+  },
+  "caution": {
+    "$type": "color",
+    "$value": "{sensia.caution}"
+  },
+  "onCaution": {
+    "$type": "color",
+    "$value": "{sensia.onCaution}"
+  },
+  "cautionContainer": {
+    "$type": "color",
+    "$value": "{sensia.cautionContainer}"
+  },
+  "onCautionContainer": {
+    "$type": "color",
+    "$value": "{sensia.onCautionContainer}"
+  },
+  "cautionSubtle": {
+    "$type": "color",
+    "$value": "{sensia.cautionSubtle}"
+  },
+  "cautionMuted": {
+    "$type": "color",
+    "$value": "{sensia.cautionMuted}"
+  },
+  "critical": {
+    "$type": "color",
+    "$value": "{sensia.critical}"
+  },
+  "onCritical": {
+    "$type": "color",
+    "$value": "{sensia.onCritical}"
+  },
+  "criticalContainer": {
+    "$type": "color",
+    "$value": "{sensia.criticalContainer}"
+  },
+  "onCriticalContainer": {
+    "$type": "color",
+    "$value": "{sensia.onCriticalContainer}"
+  },
+  "criticalSubtle": {
+    "$type": "color",
+    "$value": "{sensia.criticalSubtle}"
+  },
+  "criticalMuted": {
+    "$type": "color",
+    "$value": "{sensia.criticalMuted}"
+  },
+  "shadow": {
+    "$type": "color",
+    "$value": "{sensia.Shadow}"
+  },
+  "glow": {
+    "$type": "color",
+    "$value": "{sensia.Glow}"
+  }
+}

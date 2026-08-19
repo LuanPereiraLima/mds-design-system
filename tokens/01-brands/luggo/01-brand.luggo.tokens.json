@@ -1,0 +1,278 @@
+{
+  "brandModifier": {
+    "$type": "string",
+    "$value": "luggo"
+  },
+  "primary": {
+    "$type": "color",
+    "$value": "{luggo.primary}"
+  },
+  "onPrimary": {
+    "$type": "color",
+    "$value": "{luggo.onPrimary}"
+  },
+  "primaryContainer": {
+    "$type": "color",
+    "$value": "{luggo.primaryContainer}"
+  },
+  "onPrimaryContainer": {
+    "$type": "color",
+    "$value": "{luggo.onPrimaryContainer}"
+  },
+  "primarySubtle": {
+    "$type": "color",
+    "$value": "{luggo.primarySubtle}"
+  },
+  "primaryMuted": {
+    "$type": "color",
+    "$value": "{luggo.primaryMuted}"
+  },
+  "secondary": {
+    "$type": "color",
+    "$value": "{luggo.secondary}"
+  },
+  "onSecondary": {
+    "$type": "color",
+    "$value": "{luggo.onSecondary}"
+  },
+  "secondaryContainer": {
+    "$type": "color",
+    "$value": "{luggo.secondaryContainer}"
+  },
+  "onSecondaryContainer": {
+    "$type": "color",
+    "$value": "{luggo.onSecondaryContainer}"
+  },
+  "secondarySubtle": {
+    "$type": "color",
+    "$value": "{luggo.secondarySubtle}"
+  },
+  "secondaryMuted": {
+    "$type": "color",
+    "$value": "{luggo.secondaryMuted}"
+  },
+  "tertiary": {
+    "$type": "color",
+    "$value": "{luggo.tertiary}"
+  },
+  "onTertiary": {
+    "$type": "color",
+    "$value": "{luggo.onTertiary}"
+  },
+  "tertiaryContainer": {
+    "$type": "color",
+    "$value": "{luggo.tertiaryContainer}"
+  },
+  "onTertiaryContainer": {
+    "$type": "color",
+    "$value": "{luggo.onTertiaryContainer}"
+  },
+  "tertiarySubtle": {
+    "$type": "color",
+    "$value": "{luggo.tertiarySubtle}"
+  },
+  "tertiaryMuted": {
+    "$type": "color",
+    "$value": "{luggo.tertiaryMuted}"
+  },
+  "complementary": {
+    "$type": "color",
+    "$value": "{luggo.complementary}"
+  },
+  "onComplementary": {
+    "$type": "color",
+    "$value": "{luggo.onComplementary}"
+  },
+  "complementaryContainer": {
+    "$type": "color",
+    "$value": "{luggo.complementaryContainer}"
+  },
+  "onComplementaryContainer": {
+    "$type": "color",
+    "$value": "{luggo.onComplementaryContainer}"
+  },
+  "complementarySubtle": {
+    "$type": "color",
+    "$value": "{luggo.complementarySubtle}"
+  },
+  "complementaryMuted": {
+    "$type": "color",
+    "$value": "{luggo.complementaryMuted}"
+  },
+  "background": {
+    "$type": "color",
+    "$value": "{luggo.background}"
+  },
+  "backgroundSubtle": {
+    "$type": "color",
+    "$value": "{luggo.backgroundSubtle}"
+  },
+  "backgroundMuted": {
+    "$type": "color",
+    "$value": "{luggo.backgroundMuted}"
+  },
+  "onBackground": {
+    "$type": "color",
+    "$value": "{luggo.onBackground}"
+  },
+  "subtleOnBackground": {
+    "$type": "color",
+    "$value": "{luggo.subtleOnBackground}"
+  },
+  "mutedOnBackground": {
+    "$type": "color",
+    "$value": "{luggo.mutedOnBackground}"
+  },
+  "surface": {
+    "$type": "color",
+    "$value": "{luggo.surface}"
+  },
+  "surfaceSubtle": {
+    "$type": "color",
+    "$value": "{luggo.surfaceSubtle}"
+  },
+  "surfaceMuted": {
+    "$type": "color",
+    "$value": "{luggo.surfaceMuted}"
+  },
+  "onSurface": {
+    "$type": "color",
+    "$value": "{luggo.onSurface}"
+  },
+  "subtleOnSurface": {
+    "$type": "color",
+    "$value": "{luggo.subtleOnSurface}"
+  },
+  "mutedOnSurface": {
+    "$type": "color",
+    "$value": "{luggo.mutedOnSurface}"
+  },
+  "outline": {
+    "$type": "color",
+    "$value": "{luggo.outline}"
+  },
+  "outlineMuted": {
+    "$type": "color",
+    "$value": "{luggo.outlineMuted}"
+  },
+  "outlineEmphasized": {
+    "$type": "color",
+    "$value": "{luggo.outlineEmphasized}"
+  },
+  "inverse": {
+    "$type": "color",
+    "$value": "{luggo.inverse}"
+  },
+  "inversePrimary": {
+    "$type": "color",
+    "$value": "{luggo.inversePrimary}"
+  },
+  "inverseSecondary": {
+    "$type": "color",
+    "$value": "{luggo.inverseSecondary}"
+  },
+  "attention": {
+    "$type": "color",
+    "$value": "{luggo.attention}"
+  },
+  "onAttention": {
+    "$type": "color",
+    "$value": "{luggo.onAttention}"
+  },
+  "attentionContainer": {
+    "$type": "color",
+    "$value": "{luggo.attentionContainer}"
+  },
+  "onAttentionContainer": {
+    "$type": "color",
+    "$value": "{luggo.onAttentionContainer}"
+  },
+  "attentionSubtle": {
+    "$type": "color",
+    "$value": "{luggo.attentionSubtle}"
+  },
+  "attentionMuted": {
+    "$type": "color",
+    "$value": "{luggo.attentionMuted}"
+  },
+  "success": {
+    "$type": "color",
+    "$value": "{luggo.success}"
+  },
+  "onSuccess": {
+    "$type": "color",
+    "$value": "{luggo.onSuccess}"
+  },
+  "successContainer": {
+    "$type": "color",
+    "$value": "{luggo.successContainer}"
+  },
+  "onSuccessContainer": {
+    "$type": "color",
+    "$value": "{luggo.onSuccessContainer}"
+  },
+  "successSubtle": {
+    "$type": "color",
+    "$value": "{luggo.successSubtle}"
+  },
+  "successMuted": {
+    "$type": "color",
+    "$value": "{luggo.successMuted}"
+  },
+  "caution": {
+    "$type": "color",
+    "$value": "{luggo.caution}"
+  },
+  "onCaution": {
+    "$type": "color",
+    "$value": "{luggo.onCaution}"
+  },
+  "cautionContainer": {
+    "$type": "color",
+    "$value": "{luggo.cautionContainer}"
+  },
+  "onCautionContainer": {
+    "$type": "color",
+    "$value": "{luggo.onCautionContainer}"
+  },
+  "cautionSubtle": {
+    "$type": "color",
+    "$value": "{luggo.cautionSubtle}"
+  },
+  "cautionMuted": {
+    "$type": "color",
+    "$value": "{luggo.cautionMuted}"
+  },
+  "critical": {
+    "$type": "color",
+    "$value": "{luggo.critical}"
+  },
+  "onCritical": {
+    "$type": "color",
+    "$value": "{luggo.onCritical}"
+  },
+  "criticalContainer": {
+    "$type": "color",
+    "$value": "{luggo.criticalContainer}"
+  },
+  "onCriticalContainer": {
+    "$type": "color",
+    "$value": "{luggo.onCriticalContainer}"
+  },
+  "criticalSubtle": {
+    "$type": "color",
+    "$value": "{luggo.criticalSubtle}"
+  },
+  "criticalMuted": {
+    "$type": "color",
+    "$value": "{luggo.criticalMuted}"
+  },
+  "shadow": {
+    "$type": "color",
+    "$value": "{luggo.Shadow}"
+  },
+  "glow": {
+    "$type": "color",
+    "$value": "{luggo.Glow}"
+  }
+}

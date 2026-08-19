@@ -1,0 +1,38 @@
+{
+  "minH": {
+    "$type": "dimension",
+    "$value": "40px"
+  },
+  "minW": {
+    "$type": "dimension",
+    "$value": "120px"
+  },
+  "gap": {
+    "$type": "dimension",
+    "$value": "{gap.s-medium}"
+  },
+  "vPadding": {
+    "$type": "dimension",
+    "$value": "{inset-deprecated.xxxSmall}"
+  },
+  "hPadding": {
+    "$type": "dimension",
+    "$value": "{inset-deprecated.small}"
+  },
+  "iconSize": {
+    "$type": "dimension",
+    "$value": "{lineHeight.xSmall}"
+  },
+  "labelHight": {
+    "$type": "dimension",
+    "$value": "{lineHeight.xSmall}"
+  },
+  "labelSize": {
+    "$type": "dimension",
+    "$value": "{size.xSmall}"
+  },
+  "labelWeight": {
+    "$type": "dimension",
+    "$value": "{weight.semiBold}"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "modificador": {
+    "$type": "string",
+    "$value": "tablet"
+  },
+  "minWidth": {
+    "$type": "dimension",
+    "$value": "601px"
+  },
+  "defWidth": {
+    "$type": "dimension",
+    "$value": "800px"
+  },
+  "maxWidth": {
+    "$type": "dimension",
+    "$value": "960px"
+  },
+  "column": {
+    "$type": "dimension",
+    "$value": "8px"
+  },
+  "minMargin": {
+    "$type": "dimension",
+    "$value": "20px"
+  },
+  "defMargin": {
+    "$type": "dimension",
+    "$value": "24px"
+  },
+  "maxMargin": {
+    "$type": "dimension",
+    "$value": "28px"
+  },
+  "gutter": {
+    "$type": "dimension",
+    "$value": "20px"
+  }
+}

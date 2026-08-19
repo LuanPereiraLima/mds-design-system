@@ -1,0 +1,278 @@
+{
+  "brandModifier": {
+    "$type": "string",
+    "$value": "superApp"
+  },
+  "primary": {
+    "$type": "color",
+    "$value": "{superApp.primary}"
+  },
+  "onPrimary": {
+    "$type": "color",
+    "$value": "{superApp.onPrimary}"
+  },
+  "primaryContainer": {
+    "$type": "color",
+    "$value": "{superApp.primaryContainer}"
+  },
+  "onPrimaryContainer": {
+    "$type": "color",
+    "$value": "{superApp.onPrimaryContainer}"
+  },
+  "primarySubtle": {
+    "$type": "color",
+    "$value": "{superApp.primarySubtle}"
+  },
+  "primaryMuted": {
+    "$type": "color",
+    "$value": "{superApp.primaryMuted}"
+  },
+  "secondary": {
+    "$type": "color",
+    "$value": "{superApp.secondary}"
+  },
+  "onSecondary": {
+    "$type": "color",
+    "$value": "{superApp.onSecondary}"
+  },
+  "secondaryContainer": {
+    "$type": "color",
+    "$value": "{superApp.secondaryContainer}"
+  },
+  "onSecondaryContainer": {
+    "$type": "color",
+    "$value": "{superApp.onSecondaryContainer}"
+  },
+  "secondarySubtle": {
+    "$type": "color",
+    "$value": "{superApp.secondarySubtle}"
+  },
+  "secondaryMuted": {
+    "$type": "color",
+    "$value": "{superApp.secondaryMuted}"
+  },
+  "tertiary": {
+    "$type": "color",
+    "$value": "{superApp.tertiary}"
+  },
+  "onTertiary": {
+    "$type": "color",
+    "$value": "{superApp.onTertiary}"
+  },
+  "tertiaryContainer": {
+    "$type": "color",
+    "$value": "{superApp.tertiaryContainer}"
+  },
+  "onTertiaryContainer": {
+    "$type": "color",
+    "$value": "{superApp.onTertiaryContainer}"
+  },
+  "tertiarySubtle": {
+    "$type": "color",
+    "$value": "{superApp.tertiarySubtle}"
+  },
+  "tertiaryMuted": {
+    "$type": "color",
+    "$value": "{superApp.tertiaryMuted}"
+  },
+  "complementary": {
+    "$type": "color",
+    "$value": "{superApp.complementary}"
+  },
+  "onComplementary": {
+    "$type": "color",
+    "$value": "{superApp.onComplementary}"
+  },
+  "complementaryContainer": {
+    "$type": "color",
+    "$value": "{superApp.complementaryContainer}"
+  },
+  "onComplementaryContainer": {
+    "$type": "color",
+    "$value": "{superApp.onComplementaryContainer}"
+  },
+  "complementarySubtle": {
+    "$type": "color",
+    "$value": "{superApp.complementarySubtle}"
+  },
+  "complementaryMuted": {
+    "$type": "color",
+    "$value": "{superApp.complementaryMuted}"
+  },
+  "background": {
+    "$type": "color",
+    "$value": "{superApp.background}"
+  },
+  "backgroundSubtle": {
+    "$type": "color",
+    "$value": "{superApp.backgroundSubtle}"
+  },
+  "backgroundMuted": {
+    "$type": "color",
+    "$value": "{superApp.backgroundMuted}"
+  },
+  "onBackground": {
+    "$type": "color",
+    "$value": "{superApp.onBackground}"
+  },
+  "subtleOnBackground": {
+    "$type": "color",
+    "$value": "{superApp.subtleOnBackground}"
+  },
+  "mutedOnBackground": {
+    "$type": "color",
+    "$value": "{superApp.mutedOnBackground}"
+  },
+  "surface": {
+    "$type": "color",
+    "$value": "{superApp.surface}"
+  },
+  "surfaceSubtle": {
+    "$type": "color",
+    "$value": "{superApp.surfaceSubtle}"
+  },
+  "surfaceMuted": {
+    "$type": "color",
+    "$value": "{superApp.surfaceMuted}"
+  },
+  "onSurface": {
+    "$type": "color",
+    "$value": "{superApp.onSurface}"
+  },
+  "subtleOnSurface": {
+    "$type": "color",
+    "$value": "{superApp.subtleOnSurface}"
+  },
+  "mutedOnSurface": {
+    "$type": "color",
+    "$value": "{superApp.mutedOnSurface}"
+  },
+  "outline": {
+    "$type": "color",
+    "$value": "{superApp.outline}"
+  },
+  "outlineMuted": {
+    "$type": "color",
+    "$value": "{superApp.outlineMuted}"
+  },
+  "outlineEmphasized": {
+    "$type": "color",
+    "$value": "{superApp.outlineEmphasized}"
+  },
+  "inverse": {
+    "$type": "color",
+    "$value": "{superApp.inverse}"
+  },
+  "inversePrimary": {
+    "$type": "color",
+    "$value": "{superApp.inversePrimary}"
+  },
+  "inverseSecondary": {
+    "$type": "color",
+    "$value": "{superApp.inverseSecondary}"
+  },
+  "attention": {
+    "$type": "color",
+    "$value": "{superApp.attention}"
+  },
+  "onAttention": {
+    "$type": "color",
+    "$value": "{superApp.onAttention}"
+  },
+  "attentionContainer": {
+    "$type": "color",
+    "$value": "{superApp.attentionContainer}"
+  },
+  "onAttentionContainer": {
+    "$type": "color",
+    "$value": "{superApp.onAttentionContainer}"
+  },
+  "attentionSubtle": {
+    "$type": "color",
+    "$value": "{superApp.attentionSubtle}"
+  },
+  "attentionMuted": {
+    "$type": "color",
+    "$value": "{superApp.attentionMuted}"
+  },
+  "success": {
+    "$type": "color",
+    "$value": "{superApp.success}"
+  },
+  "onSuccess": {
+    "$type": "color",
+    "$value": "{superApp.onSuccess}"
+  },
+  "successContainer": {
+    "$type": "color",
+    "$value": "{superApp.successContainer}"
+  },
+  "onSuccessContainer": {
+    "$type": "color",
+    "$value": "{superApp.onSuccessContainer}"
+  },
+  "successSubtle": {
+    "$type": "color",
+    "$value": "{superApp.successSubtle}"
+  },
+  "successMuted": {
+    "$type": "color",
+    "$value": "{superApp.successMuted}"
+  },
+  "caution": {
+    "$type": "color",
+    "$value": "{superApp.caution}"
+  },
+  "onCaution": {
+    "$type": "color",
+    "$value": "{superApp.onCaution}"
+  },
+  "cautionContainer": {
+    "$type": "color",
+    "$value": "{superApp.cautionContainer}"
+  },
+  "onCautionContainer": {
+    "$type": "color",
+    "$value": "{superApp.onCautionContainer}"
+  },
+  "cautionSubtle": {
+    "$type": "color",
+    "$value": "{superApp.cautionSubtle}"
+  },
+  "cautionMuted": {
+    "$type": "color",
+    "$value": "{superApp.cautionMuted}"
+  },
+  "critical": {
+    "$type": "color",
+    "$value": "{superApp.critical}"
+  },
+  "onCritical": {
+    "$type": "color",
+    "$value": "{superApp.onCritical}"
+  },
+  "criticalContainer": {
+    "$type": "color",
+    "$value": "{superApp.criticalContainer}"
+  },
+  "onCriticalContainer": {
+    "$type": "color",
+    "$value": "{superApp.onCriticalContainer}"
+  },
+  "criticalSubtle": {
+    "$type": "color",
+    "$value": "{superApp.criticalSubtle}"
+  },
+  "criticalMuted": {
+    "$type": "color",
+    "$value": "{superApp.criticalMuted}"
+  },
+  "shadow": {
+    "$type": "color",
+    "$value": "{superApp.Shadow}"
+  },
+  "glow": {
+    "$type": "color",
+    "$value": "{superApp.Glow}"
+  }
+}

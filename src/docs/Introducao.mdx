@@ -1,0 +1,36 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { BRANDS } from './components/useBrandTheme';
+import { ColorGrid } from './components';
+
+<Meta title="Introdução" />
+
+# MDS — Design Tokens
+
+Documentação viva dos design tokens do Design System multimarcas (MDS). Todo
+valor mostrado aqui vem direto das CSS custom properties geradas
+(`src/tokens/css/`) — nada é digitado à mão, então o que você vê reflete
+exatamente o que sai do pipeline.
+
+## Como usar a toolbar
+
+No topo da página há dois seletores:
+
+- **Marca** — troca entre as 8 marcas do Design System.
+- **Modo** — troca entre `light` e `dark`.
+
+Toda a documentação reage a essa escolha: os swatches de cor são resolvidos
+via `var(--token)` na marca/modo selecionados.
+
+## Exemplo ao vivo
+
+<ColorGrid names={['primary', 'secondary', 'tertiary', 'complementary']} />
+
+## Onde estão as páginas
+
+- **Arquitetura** — as camadas do sistema, como um token é nomeado e como o
+  build funciona.
+- **Tokens Semânticos** — a interface pública do sistema: cores, tipografia,
+  sizing, elevação e papéis semânticos, todos navegáveis por marca/modo.
+- **Consumo** — como importar e usar os tokens e componentes na Web.
+
+As {BRANDS.length} marcas cobertas: {BRANDS.map((b) => b.label).join(', ')}.

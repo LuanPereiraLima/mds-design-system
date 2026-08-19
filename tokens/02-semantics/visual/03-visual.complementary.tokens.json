@@ -1,0 +1,30 @@
+{
+  "visualModifier": {
+    "$type": "string",
+    "$value": "complementary"
+  },
+  "visual": {
+    "$type": "color",
+    "$value": "{complementary}"
+  },
+  "onVisual": {
+    "$type": "color",
+    "$value": "{onComplementary}"
+  },
+  "visualContainer": {
+    "$type": "color",
+    "$value": "{complementaryContainer}"
+  },
+  "onVisualContainer": {
+    "$type": "color",
+    "$value": "{onComplementaryContainer}"
+  },
+  "visualSubtle": {
+    "$type": "color",
+    "$value": "{complementarySubtle}"
+  },
+  "visualMuted": {
+    "$type": "color",
+    "$value": "{complementaryMuted}"
+  }
+}

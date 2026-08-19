@@ -1,0 +1,103 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { ColorGrid } from '../components';
+
+<Meta title="Tokens Semânticos/Cores" />
+
+# Cores
+
+As cores são o fundamento mais impactante do MDS — alinhadas aos demais
+tokens, são o que imprime identidade às marcas e produtos.
+
+Cada swatch abaixo usa a CSS custom property real (`var(--token)`) da
+marca/modo ativos — troque a **Marca** ou o **Modo** na toolbar e as cores
+recalculam.
+
+## Princípio central: posição e intenção
+
+Toda a estrutura de cores do MDS segue a ideia de **posição e intenção no
+layout**. Em vez de nomes de cor absolutos (como azul ou vermelho), o
+sistema usa **papéis (roles)** — isso permite que a interface seja
+adaptável entre marcas sem que o significado do token mude. Um
+prefixo/sufixo consistente define a hierarquia de contraste e aplicação de
+cada papel.
+
+### Cores de relevância — marca e feedback
+
+<table style={{ width: '100%', fontSize: 14, borderCollapse: 'collapse' }}>
+  <thead>
+    <tr style={{ textAlign: 'left', borderBottom: '2px solid #e0e0e0' }}>
+      <th style={{ padding: '6px 8px' }}>Sufixo/prefixo</th>
+      <th style={{ padding: '6px 8px' }}>Significado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><strong>Base</strong> (ex.: <code>primary</code>)</td><td style={{ padding: '6px 8px' }}>A cor principal daquela categoria.</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><strong>on</strong> (ex.: <code>onPrimary</code>, <code>onPrimaryContainer</code>)</td><td style={{ padding: '6px 8px' }}>Cor do elemento (texto ou ícone) que vai sobre a cor base/container, garantindo alto contraste e acessibilidade.</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><strong>Container</strong></td><td style={{ padding: '6px 8px' }}>Usado para preenchimentos de blocos maiores ou internos, com menor ênfase que a cor base.</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><strong>Subtle</strong> e <strong>Muted</strong></td><td style={{ padding: '6px 8px' }}>Tons suavizados e esmaecidos, ideais para fundos suaves e estados (hover, inativo), bordas secundárias ou detalhes visuais discretos.</td></tr>
+  </tbody>
+</table>
+
+### Cores neutras
+
+<table style={{ width: '100%', fontSize: 14, borderCollapse: 'collapse' }}>
+  <thead>
+    <tr style={{ textAlign: 'left', borderBottom: '2px solid #e0e0e0' }}>
+      <th style={{ padding: '6px 8px' }}>Sufixo/prefixo</th>
+      <th style={{ padding: '6px 8px' }}>Significado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><strong>Base</strong> (ex.: <code>surface</code>)</td><td style={{ padding: '6px 8px' }}>A cor principal daquela categoria.</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><strong>Subtle</strong></td><td style={{ padding: '6px 8px' }}>Tons neutros suavizados com a cor principal da marca.</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><strong>Muted</strong></td><td style={{ padding: '6px 8px' }}>Tons neutros esmaecidos e mais opacos.</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><strong>on</strong> (ex.: <code>onSurface</code>, <code>subtleOnSurface</code>)</td><td style={{ padding: '6px 8px' }}>Cor do elemento (texto ou ícone) que vai sobre a cor base, possibilitando contraste em níveis diferentes.</td></tr>
+  </tbody>
+</table>
+
+## Grupos de cor
+
+- **Marca (visual)** — `primary`, `secondary`, `tertiary`, `complementary`:
+  guiam a hierarquia de informação e as ações do usuário.
+- **Estado (feedback)** — `attention`, `success`, `caution`, `critical`:
+  padronizadas mentalmente pelos usuários para comunicar o resultado de uma
+  ação ou o status de um sistema.
+- **Neutras** — `background`, `surface`, `outline`, `shadow`: base dos
+  layouts e agrupamento de conteúdos (cards, modais, painéis).
+- **Inversas** — usadas para elementos que precisam romper a hierarquia
+  visual comum, gerando um forte contraste.
+
+Todos esses papéis são emitidos por marca × modo em
+`src/tokens/css/<marca>.<modo>.css`, escopados em
+`[data-brand][data-theme]`. A descrição sob cada swatch vem do handoff de
+conteúdo do design (ver `src/docs/lib/descriptions.ts`).
+
+> ℹ️ A entrega também traz a coleção `02-interface`, que reexporta a paleta
+> inteira como um checkpoint brand-agnóstico. Ela ainda **não** é emitida em
+> CSS pelo build — os componentes consomem os papéis diretamente.
+
+export const GROUPS = {
+  Primary: ['primary', 'onPrimary', 'primaryContainer', 'onPrimaryContainer', 'primarySubtle', 'primaryMuted'],
+  Secondary: ['secondary', 'onSecondary', 'secondaryContainer', 'onSecondaryContainer', 'secondarySubtle', 'secondaryMuted'],
+  Tertiary: ['tertiary', 'onTertiary', 'tertiaryContainer', 'onTertiaryContainer', 'tertiarySubtle', 'tertiaryMuted'],
+  Complementary: ['complementary', 'onComplementary', 'complementaryContainer', 'onComplementaryContainer', 'complementarySubtle', 'complementaryMuted'],
+  Background: ['background', 'backgroundSubtle', 'backgroundMuted', 'onBackground', 'subtleOnBackground', 'mutedOnBackground'],
+  Surface: ['surface', 'surfaceSubtle', 'surfaceMuted', 'onSurface', 'subtleOnSurface', 'mutedOnSurface'],
+  Outline: ['outline', 'outlineMuted', 'outlineEmphasized'],
+  Inverse: ['inverse', 'inversePrimary', 'inverseSecondary'],
+  Attention: ['attention', 'onAttention', 'attentionContainer', 'onAttentionContainer', 'attentionSubtle', 'attentionMuted'],
+  Success: ['success', 'onSuccess', 'successContainer', 'onSuccessContainer', 'successSubtle', 'successMuted'],
+  Caution: ['caution', 'onCaution', 'cautionContainer', 'onCautionContainer', 'cautionSubtle', 'cautionMuted'],
+  Critical: ['critical', 'onCritical', 'criticalContainer', 'onCriticalContainer', 'criticalSubtle', 'criticalMuted'],
+  Outras: ['shadow', 'glow'],
+};
+
+export const ColorSections = () => (
+  <>
+    {Object.entries(GROUPS).map(([title, names]) => (
+      <ColorGrid key={title} title={title} names={names} />
+    ))}
+  </>
+);
+
+<ColorSections />

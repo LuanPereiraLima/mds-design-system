@@ -1,0 +1,30 @@
+{
+  "semanticModifier": {
+    "$type": "string",
+    "$value": "neutral"
+  },
+  "semantic": {
+    "$type": "color",
+    "$value": "{neutral}"
+  },
+  "onSemantic": {
+    "$type": "color",
+    "$value": "{onNeutral}"
+  },
+  "semanticContainer": {
+    "$type": "color",
+    "$value": "{neutralContainer}"
+  },
+  "onSemanticContainer": {
+    "$type": "color",
+    "$value": "{onNeutralContainer}"
+  },
+  "semanticSubtle": {
+    "$type": "color",
+    "$value": "{neutralSubtle}"
+  },
+  "semanticMuted": {
+    "$type": "color",
+    "$value": "{neutralMuted}"
+  }
+}

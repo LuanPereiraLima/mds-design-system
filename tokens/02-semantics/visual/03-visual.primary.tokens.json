@@ -1,0 +1,30 @@
+{
+  "visualModifier": {
+    "$type": "string",
+    "$value": "primary"
+  },
+  "visual": {
+    "$type": "color",
+    "$value": "{primary}"
+  },
+  "onVisual": {
+    "$type": "color",
+    "$value": "{onPrimary}"
+  },
+  "visualContainer": {
+    "$type": "color",
+    "$value": "{primaryContainer}"
+  },
+  "onVisualContainer": {
+    "$type": "color",
+    "$value": "{onPrimaryContainer}"
+  },
+  "visualSubtle": {
+    "$type": "color",
+    "$value": "{primarySubtle}"
+  },
+  "visualMuted": {
+    "$type": "color",
+    "$value": "{primaryMuted}"
+  }
+}

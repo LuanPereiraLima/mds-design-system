@@ -1,0 +1,30 @@
+{
+  "feedbackModifier": {
+    "$type": "string",
+    "$value": "success"
+  },
+  "feedback": {
+    "$type": "color",
+    "$value": "{success}"
+  },
+  "onFeedback": {
+    "$type": "color",
+    "$value": "{onSuccess}"
+  },
+  "feedbackContainer": {
+    "$type": "color",
+    "$value": "{successContainer}"
+  },
+  "onFeedbackContainer": {
+    "$type": "color",
+    "$value": "{onSuccessContainer}"
+  },
+  "feedbackSubtle": {
+    "$type": "color",
+    "$value": "{successSubtle}"
+  },
+  "feedbackMuted": {
+    "$type": "color",
+    "$value": "{successMuted}"
+  }
+}

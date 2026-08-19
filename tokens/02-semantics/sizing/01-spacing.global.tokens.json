@@ -1,0 +1,134 @@
+{
+  "gap": {
+    "null": {
+      "$type": "dimension",
+      "$value": "{0}"
+    },
+    "s-xSmall": {
+      "$type": "dimension",
+      "$value": "{0_25}"
+    },
+    "s-small": {
+      "$type": "dimension",
+      "$value": "{1}"
+    },
+    "s-medium": {
+      "$type": "dimension",
+      "$value": "{2}"
+    },
+    "s-large": {
+      "$type": "dimension",
+      "$value": "{2_5}"
+    },
+    "s-xLarge": {
+      "$type": "dimension",
+      "$value": "{3}"
+    },
+    "m-xSmall": {
+      "$type": "dimension",
+      "$value": "{3_5}"
+    },
+    "m-small": {
+      "$type": "dimension",
+      "$value": "{4}"
+    },
+    "m-medium": {
+      "$type": "dimension",
+      "$value": "{5}"
+    },
+    "m-large": {
+      "$type": "dimension",
+      "$value": "{6}"
+    },
+    "m-xLarge": {
+      "$type": "dimension",
+      "$value": "{8}"
+    },
+    "l-xSmall": {
+      "$type": "dimension",
+      "$value": "{9}"
+    },
+    "l-small": {
+      "$type": "dimension",
+      "$value": "{10}"
+    },
+    "l-medium": {
+      "$type": "dimension",
+      "$value": "{11}"
+    },
+    "l-large": {
+      "$type": "dimension",
+      "$value": "{12}"
+    },
+    "l-xLarge": {
+      "$type": "dimension",
+      "$value": "{14}"
+    },
+    "xl-xSmall": {
+      "$type": "dimension",
+      "$value": "{15}"
+    },
+    "xl-small": {
+      "$type": "dimension",
+      "$value": "{16}"
+    },
+    "xl-medium": {
+      "$type": "dimension",
+      "$value": "{18}"
+    },
+    "xl-large": {
+      "$type": "dimension",
+      "$value": "{20}"
+    },
+    "xl-xLarge": {
+      "$type": "dimension",
+      "$value": "{30}"
+    }
+  },
+  "inset-deprecated": {
+    "null": {
+      "$type": "dimension",
+      "$value": "{gap.null}"
+    },
+    "min": {
+      "$type": "dimension",
+      "$value": "{gap.s-small}"
+    },
+    "xxxSmall": {
+      "$type": "dimension",
+      "$value": "{gap.s-medium}"
+    },
+    "xxSmall": {
+      "$type": "dimension",
+      "$value": "{gap.s-xLarge}"
+    },
+    "xSmall": {
+      "$type": "dimension",
+      "$value": "{gap.m-small}"
+    },
+    "small": {
+      "$type": "dimension",
+      "$value": "{gap.m-large}"
+    },
+    "medium": {
+      "$type": "dimension",
+      "$value": "{gap.m-xLarge}"
+    },
+    "large": {
+      "$type": "dimension",
+      "$value": "{gap.l-small}"
+    },
+    "xLarge": {
+      "$type": "dimension",
+      "$value": "{gap.l-large}"
+    },
+    "xxLarge": {
+      "$type": "dimension",
+      "$value": "{gap.xl-small}"
+    },
+    "xxxLarge": {
+      "$type": "dimension",
+      "$value": "{gap.xl-large}"
+    }
+  }
+}

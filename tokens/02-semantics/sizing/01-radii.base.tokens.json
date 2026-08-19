@@ -1,0 +1,34 @@
+{
+  "none": {
+    "$type": "dimension",
+    "$value": "{0}"
+  },
+  "xSmall": {
+    "$type": "dimension",
+    "$value": "{0_5}"
+  },
+  "small": {
+    "$type": "dimension",
+    "$value": "{1}"
+  },
+  "medium": {
+    "$type": "dimension",
+    "$value": "{2}"
+  },
+  "large": {
+    "$type": "dimension",
+    "$value": "{3}"
+  },
+  "xLarge": {
+    "$type": "dimension",
+    "$value": "{4}"
+  },
+  "xxLarge": {
+    "$type": "dimension",
+    "$value": "{6}"
+  },
+  "full": {
+    "$type": "dimension",
+    "$value": "{infinity}"
+  }
+}

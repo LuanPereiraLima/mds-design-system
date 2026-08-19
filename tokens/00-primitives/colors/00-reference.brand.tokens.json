@@ -1,0 +1,386 @@
+{
+  "co": {
+    "color01": {
+      "$type": "color",
+      "$value": "{greens.greenCo.500}"
+    },
+    "color02": {
+      "$type": "color",
+      "$value": "{oranges.orangeCo.500}"
+    },
+    "color03": {
+      "$type": "color",
+      "$value": "{neutrals.concreteCo.500}"
+    },
+    "color04": {
+      "$type": "color",
+      "$value": "{neutrals.grayCo.500}"
+    }
+  },
+  "mrv": {
+    "color01": {
+      "$type": "color",
+      "$value": "{greens.greenCo.500}"
+    },
+    "color02": {
+      "$type": "color",
+      "$value": "{greens.grassMrv.500}"
+    },
+    "color03": {
+      "$type": "color",
+      "$value": "{greens.tealMrv.500}"
+    },
+    "color04": {
+      "$type": "color",
+      "$value": "{greens.limeMrv.500}"
+    },
+    "color05": {
+      "$type": "color",
+      "$value": "{oranges.orangeCo.500}"
+    },
+    "color06": {
+      "$type": "color",
+      "$value": "{yellows.sunMrv.500}"
+    },
+    "color07": {
+      "$type": "color",
+      "$value": "{purples.purpleMrv.500}"
+    },
+    "color08": {
+      "$type": "color",
+      "$value": "{purples.violetMrv.500}"
+    },
+    "color09": {
+      "$type": "color",
+      "$value": "{pinks.magentaMrv.500}"
+    },
+    "color10": {
+      "$type": "color",
+      "$value": "{pinks.pinkMrv.500}"
+    },
+    "color11": {
+      "$type": "color",
+      "$value": "{yellows.sunMrv.500}"
+    },
+    "color12": {
+      "$type": "color",
+      "$value": "{yellows.yellowMrv.500}"
+    },
+    "extra01": {
+      "$type": "color",
+      "$value": "{greens.mossMrv.500}"
+    },
+    "extra02": {
+      "$type": "color",
+      "$value": "{oranges.orangeMrv.500}"
+    },
+    "extra03": {
+      "$type": "color",
+      "$value": "{oranges.peachMrv.500}"
+    },
+    "extra04": {
+      "$type": "color",
+      "$value": "{reds.salmon.500}"
+    },
+    "extra05": {
+      "$type": "color",
+      "$value": "{reds.carmesin.500}"
+    },
+    "extra06": {
+      "$type": "color",
+      "$value": "{pinks.coral.500}"
+    },
+    "extra07": {
+      "$type": "color",
+      "$value": "{greens.fern.500}"
+    },
+    "extra08": {
+      "$type": "color",
+      "$value": "{oranges.orange.500}"
+    },
+    "extra09": {
+      "$type": "color",
+      "$value": "{yellows.yellow.500}"
+    },
+    "gray01": {
+      "$type": "color",
+      "$value": "{neutrals.grayMrvFix.800}"
+    },
+    "gray02": {
+      "$type": "color",
+      "$value": "{neutrals.grayMrvFix.700}"
+    },
+    "gray03": {
+      "$type": "color",
+      "$value": "{neutrals.grayMrvFix.600}"
+    },
+    "gray04": {
+      "$type": "color",
+      "$value": "{neutrals.grayMrvFix.400}"
+    },
+    "gray05": {
+      "$type": "color",
+      "$value": "{neutrals.grayMrvFix.200}"
+    },
+    "gray06": {
+      "$type": "color",
+      "$value": "{neutrals.grayMrvFix.150}"
+    },
+    "gray07": {
+      "$type": "color",
+      "$value": "{neutrals.grayMrvFix.50}"
+    },
+    "gray08": {
+      "$type": "color",
+      "$value": "{neutrals.gray.200}"
+    },
+    "gray09": {
+      "$type": "color",
+      "$value": "{neutrals.gray.150}"
+    },
+    "gray10": {
+      "$type": "color",
+      "$value": "{neutrals.gray.50}"
+    },
+    "gray11": {
+      "$type": "color",
+      "$value": "{neutrals.gray.150}"
+    }
+  },
+  "luggo": {
+    "color01": {
+      "$type": "color",
+      "$value": "{purples.violetLuggo.500}"
+    },
+    "color02": {
+      "$type": "color",
+      "$value": "{oranges.orangeLuggo.500}"
+    },
+    "color03": {
+      "$type": "color",
+      "$value": "{purples.purpleLuggo.500}"
+    },
+    "color04": {
+      "$type": "color",
+      "$value": "{purples.orchidLuggo.500}"
+    },
+    "color05": {
+      "$type": "color",
+      "$value": "{yellows.sunLuggo.500}"
+    },
+    "color06": {
+      "$type": "color",
+      "$value": "{pinks.magentaLuggo.500}"
+    },
+    "color07": {
+      "$type": "color",
+      "$value": "{pinks.pinkLuggo.500}"
+    },
+    "color08": {
+      "$type": "color",
+      "$value": "{purples.lavenderLuggo.500}"
+    }
+  },
+  "sensia": {
+    "color01": {
+      "$type": "color",
+      "$value": "{greens.forestSensia.500}"
+    },
+    "color02": {
+      "$type": "color",
+      "$value": "{greens.pistachioSensia.500}"
+    },
+    "color03": {
+      "$type": "color",
+      "$value": "{blues.arcticSensia.500}"
+    },
+    "color04": {
+      "$type": "color",
+      "$value": "{pinks.peachSensia.500}"
+    },
+    "color05": {
+      "$type": "color",
+      "$value": "{greens.pineSensia.500}"
+    },
+    "color06": {
+      "$type": "color",
+      "$value": "{greens.mintSensia.500}"
+    },
+    "color07": {
+      "$type": "color",
+      "$value": "{blues.skySensia.500}"
+    },
+    "color08": {
+      "$type": "color",
+      "$value": "{pinks.blushSensia.500}"
+    }
+  },
+  "class": {
+    "color01": {
+      "$type": "color",
+      "$value": "{greens.grassClass.500}"
+    },
+    "color02": {
+      "$type": "color",
+      "$value": "{greens.tealMrv.500}"
+    },
+    "color03": {
+      "$type": "color",
+      "$value": "{greens.greenCo.500}"
+    },
+    "color04": {
+      "$type": "color",
+      "$value": "{yellows.wheatClass.500}"
+    },
+    "color05": {
+      "$type": "color",
+      "$value": "{yellows.limeClass.500}"
+    },
+    "color06": {
+      "$type": "color",
+      "$value": "{greens.mintClass.500}"
+    },
+    "color07": {
+      "$type": "color",
+      "$value": "{neutrals.sandClass.500}"
+    }
+  },
+  "mdc": {
+    "color01": {
+      "$type": "color",
+      "$value": "{oranges.orangeMdc.500}"
+    },
+    "color02": {
+      "$type": "color",
+      "$value": "{yellows.sandMdc.500}"
+    },
+    "color03": {
+      "$type": "color",
+      "$value": "{purples.lavenderMdc.500}"
+    },
+    "color04": {
+      "$type": "color",
+      "$value": "{greens.sageMdc.500}"
+    }
+  },
+  "urba": {
+    "color01": {
+      "$type": "color",
+      "$value": "{greens.grassMrv.500}"
+    },
+    "color02": {
+      "$type": "color",
+      "$value": "{oranges.orangeUrba.500}"
+    },
+    "color03": {
+      "$type": "color",
+      "$value": "{greens.greenCo.500}"
+    },
+    "color04": {
+      "$type": "color",
+      "$value": "{yellows.sunUrba.500}"
+    },
+    "color05": {
+      "$type": "color",
+      "$value": "{greens.tealMrv.500}"
+    },
+    "color06": {
+      "$type": "color",
+      "$value": "{greens.limeUrba.500}"
+    },
+    "color07": {
+      "$type": "color",
+      "$value": "{pinks.magentaMrv.500}"
+    },
+    "color08": {
+      "$type": "color",
+      "$value": "{pinks.pinkMrv.500}"
+    },
+    "color09": {
+      "$type": "color",
+      "$value": "{purples.purpleMrv.500}"
+    },
+    "color10": {
+      "$type": "color",
+      "$value": "{purples.violetMrv.500}"
+    }
+  },
+  "mdc_-_legado": {
+    "color01": {
+      "$type": "color",
+      "$value": "{greens.greenCo.500}"
+    },
+    "color02": {
+      "$type": "color",
+      "$value": "{greens.grassMrv.500}"
+    },
+    "color03": {
+      "$type": "color",
+      "$value": "{greens.tealMrv.500}"
+    },
+    "color04": {
+      "$type": "color",
+      "$value": "{greens.limeMrv.500}"
+    },
+    "color05": {
+      "$type": "color",
+      "$value": "{oranges.orangeCo.500}"
+    },
+    "color06": {
+      "$type": "color",
+      "$value": "{yellows.sunMrv.500}"
+    },
+    "color07": {
+      "$type": "color",
+      "$value": "{purples.purpleMrv.500}"
+    },
+    "color08": {
+      "$type": "color",
+      "$value": "{purples.violetMrv.500}"
+    },
+    "color09": {
+      "$type": "color",
+      "$value": "{pinks.magentaMrv.500}"
+    },
+    "color10": {
+      "$type": "color",
+      "$value": "{pinks.pinkMrv.500}"
+    },
+    "color11": {
+      "$type": "color",
+      "$value": "{yellows.sunMrv.500}"
+    },
+    "color12": {
+      "$type": "color",
+      "$value": "{yellows.yellowMrv.500}"
+    }
+  },
+  "White": {
+    "$type": "color",
+    "$value": "{neutrals.grayBase.White}"
+  },
+  "Cinza_15": {
+    "$type": "color",
+    "$value": "{neutrals.grayBase.150}"
+  },
+  "Cinza_30": {
+    "$type": "color",
+    "$value": "{neutrals.grayBase.300}"
+  },
+  "Cinza_50": {
+    "$type": "color",
+    "$value": "{neutrals.grayBase.500}"
+  },
+  "Cinza_60": {
+    "$type": "color",
+    "$value": "{neutrals.grayBase.600}"
+  },
+  "Cinza_70": {
+    "$type": "color",
+    "$value": "{neutrals.grayBase.700}"
+  },
+  "Black": {
+    "$type": "color",
+    "$value": "{neutrals.grayBase.Black}"
+  }
+}

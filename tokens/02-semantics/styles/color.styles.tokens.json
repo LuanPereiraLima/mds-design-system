@@ -1,0 +1,768 @@
+{
+  "Reference": {
+    "greyScale": {
+      "branco": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{White}"
+      },
+      "cinza 15": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{Cinza_15}"
+      },
+      "cinza 30": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{Cinza_30}"
+      },
+      "cinza 50": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{Cinza_50}"
+      },
+      "cinza 60": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{Cinza_60}"
+      },
+      "cinza 70": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{Cinza_70}"
+      },
+      "preto": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{Black}"
+      }
+    },
+    "mrvCo": {
+      "cor 1": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{co.color01}"
+      },
+      "cor 2": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{co.color02}"
+      },
+      "cor 3": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{co.color03}"
+      },
+      "cor 4": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{co.color04}"
+      }
+    },
+    "mrv": {
+      "cor 1": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.color01}"
+      },
+      "cor 2": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.color02}"
+      },
+      "cor 3": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.color03}"
+      },
+      "cor 4": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.color04}"
+      },
+      "cor 5": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.color05}"
+      },
+      "cor 6": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.color06}"
+      },
+      "cor 7": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.color07}"
+      },
+      "cor 8": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.color08}"
+      },
+      "cor 9": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.color09}"
+      },
+      "cor 10": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.color10}"
+      },
+      "cor 11": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.color11}"
+      },
+      "cor 12": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.color12}"
+      },
+      "extra 1": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.extra01}"
+      },
+      "extra 2": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.extra02}"
+      },
+      "extra 3": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.extra03}"
+      },
+      "extra 4": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.extra04}"
+      },
+      "extra 5": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.extra05}"
+      },
+      "extra 6": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.extra06}"
+      },
+      "extra 7": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.extra07}"
+      },
+      "extra 8": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.extra08}"
+      },
+      "extra 9": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mrv.extra09}"
+      }
+    },
+    "luggo": {
+      "cor 1": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{luggo.color01}"
+      },
+      "cor 2": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{luggo.color02}"
+      },
+      "cor 3": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{luggo.color03}"
+      },
+      "cor 4": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{luggo.color04}"
+      },
+      "cor 5": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{luggo.color05}"
+      },
+      "cor 6": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{luggo.color06}"
+      },
+      "cor 7": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{luggo.color07}"
+      },
+      "cor 8": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{luggo.color08}"
+      }
+    },
+    "sensia": {
+      "cor 1": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{sensia.color01}"
+      },
+      "cor 2": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{sensia.color02}"
+      },
+      "cor 3": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{sensia.color03}"
+      },
+      "cor 4": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{sensia.color04}"
+      },
+      "cor 5": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{sensia.color05}"
+      },
+      "cor 6": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{sensia.color06}"
+      },
+      "cor 7": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{sensia.color07}"
+      },
+      "cor 8": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{sensia.color08}"
+      }
+    },
+    "class": {
+      "cor 1": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{class.color01}"
+      },
+      "cor 2": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{class.color02}"
+      },
+      "cor 3": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{class.color03}"
+      },
+      "cor 4": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{class.color04}"
+      },
+      "cor 5": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{class.color05}"
+      },
+      "cor 6": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{class.color06}"
+      },
+      "cor 7": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{class.color07}"
+      }
+    },
+    "mdc": {
+      "cor 1": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mdc.color01}"
+      },
+      "cor 2": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mdc.color02}"
+      },
+      "cor 3": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mdc.color03}"
+      },
+      "cor 4": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{mdc.color04}"
+      }
+    },
+    "urba": {
+      "cor 1": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{urba.color01}"
+      },
+      "cor 2": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{urba.color02}"
+      },
+      "cor 3": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{urba.color03}"
+      },
+      "cor 4": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{urba.color04}"
+      },
+      "cor 5": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{urba.color05}"
+      },
+      "cor 6": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{urba.color06}"
+      },
+      "cor 7": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{urba.color07}"
+      },
+      "cor 8": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{urba.color08}"
+      },
+      "cor 9": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{urba.color09}"
+      },
+      "cor 10": {
+        "$type": "color",
+        "$description": "Cores fixas que não se alteram com a mudança de tema ou marca",
+        "$value": "{urba.color10}"
+      }
+    }
+  },
+  "Gradient": {
+    "MRV": {
+      "Green": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{greens.greenCo.500}",
+              "position": 0
+            },
+            {
+              "color": "{greens.grassMrv.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Lime": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{greens.tealMrv.500}",
+              "position": 0
+            },
+            {
+              "color": "{greens.limeMrv.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Orange": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{oranges.orangeCo.500}",
+              "position": 0
+            },
+            {
+              "color": "{yellows.sunMrv.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Sun": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{yellows.sunMrv.500}",
+              "position": 0
+            },
+            {
+              "color": "{yellows.yellowMrv.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Purple": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{purples.purpleMrv.500}",
+              "position": 0
+            },
+            {
+              "color": "{purples.violetMrv.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Pink": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{pinks.magentaMrv.500}",
+              "position": 0
+            },
+            {
+              "color": "{pinks.pinkMrv.500}",
+              "position": 1
+            }
+          ]
+        }
+      }
+    },
+    "Luggo": {
+      "Violet": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{purples.violetLuggo.500}",
+              "position": 0
+            },
+            {
+              "color": "{purples.lavenderLuggo.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Orange": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{oranges.orangeLuggo.500}",
+              "position": 0
+            },
+            {
+              "color": "{yellows.sunLuggo.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Purple": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{purples.purpleLuggo.500}",
+              "position": 0
+            },
+            {
+              "color": "{purples.orchidLuggo.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Pink": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{pinks.magentaLuggo.500}",
+              "position": 0
+            },
+            {
+              "color": "{pinks.pinkLuggo.500}",
+              "position": 1
+            }
+          ]
+        }
+      }
+    },
+    "MDC": {
+      "Green": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{greens.greenCo.500}",
+              "position": 0
+            },
+            {
+              "color": "{greens.grassMrv.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Lime": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{greens.tealMrv.500}",
+              "position": 0
+            },
+            {
+              "color": "{greens.limeMrv.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Orange": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{oranges.orangeCo.500}",
+              "position": 0
+            },
+            {
+              "color": "{yellows.sunMrv.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Sun": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{yellows.sunMrv.500}",
+              "position": 0
+            },
+            {
+              "color": "{yellows.yellowMrv.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Purple": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{purples.purpleMrv.500}",
+              "position": 0
+            },
+            {
+              "color": "{purples.violetMrv.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Pink": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{pinks.magentaMrv.500}",
+              "position": 0
+            },
+            {
+              "color": "{pinks.pinkMrv.500}",
+              "position": 1
+            }
+          ]
+        }
+      }
+    },
+    "Urba": {
+      "Green": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{greens.greenCo.500}",
+              "position": 0
+            },
+            {
+              "color": "{greens.grassMrv.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Yellow": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{oranges.orangeUrba.500}",
+              "position": 0
+            },
+            {
+              "color": "{yellows.sunUrba.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Lime": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{greens.tealMrv.500}",
+              "position": 0
+            },
+            {
+              "color": "{greens.limeUrba.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Pink": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{pinks.magentaMrv.500}",
+              "position": 0
+            },
+            {
+              "color": "{pinks.pinkMrv.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Purple": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 45,
+          "stops": [
+            {
+              "color": "{purples.purpleMrv.500}",
+              "position": 0
+            },
+            {
+              "color": "{purples.violetMrv.500}",
+              "position": 1
+            }
+          ]
+        }
+      }
+    },
+    "SuperApp": {
+      "Light": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 242,
+          "stops": [
+            {
+              "color": "{neutrals.superStone.500}",
+              "position": 0.4
+            },
+            {
+              "color": "{neutrals.superSand.500}",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "Dark": {
+        "$type": "gradient",
+        "$value": {
+          "type": "linear",
+          "angle": 242,
+          "stops": [
+            {
+              "color": "{greens.superGreen.950}",
+              "position": 0.27
+            },
+            {
+              "color": "{greens.superGreen.500}",
+              "position": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

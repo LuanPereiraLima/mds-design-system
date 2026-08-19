@@ -1,0 +1,252 @@
+{
+  "preenchido": {
+    "normal": {
+      "bgColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.normal.bgColor}"
+      },
+      "labelColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.normal.labelColor}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.normal.iconColor}"
+      }
+    },
+    "emFoco": {
+      "bgColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.emFoco.bgColor}"
+      },
+      "strokeColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.emFoco.strokeColor}"
+      },
+      "labelColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.emFoco.labelColor}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.emFoco.iconColor}"
+      }
+    },
+    "sobre": {
+      "bgColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.sobre.bgColor}"
+      },
+      "labelColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.sobre.labelColor}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.sobre.iconColor}"
+      }
+    },
+    "pressionado": {
+      "bgColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.pressionado.bgColor}"
+      },
+      "labelColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.pressionado.labelColor}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.pressionado.iconColor}"
+      },
+      "sdColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.pressionado.sdColor}"
+      }
+    },
+    "desabilitado": {
+      "bgColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.desabilitado.bgColor}"
+      },
+      "labelColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.desabilitado.labelColor}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.desabilitado.iconColor}"
+      }
+    },
+    "carregando": {
+      "bgColor": {
+        "$type": "color",
+        "$value": "{neutral.preenchido.carregando.bgColor}"
+      }
+    }
+  },
+  "contornado": {
+    "normal": {
+      "strokeColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.normal.strokeColor}"
+      },
+      "labelColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.normal.labelColor}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.normal.iconColor}"
+      }
+    },
+    "emFoco": {
+      "strokeColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.emFoco.strokeColor}"
+      },
+      "labelColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.emFoco.labelColor}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.emFoco.iconColor}"
+      }
+    },
+    "sobre": {
+      "bgColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.sobre.bgColor}"
+      },
+      "strokeColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.sobre.strokeColor}"
+      },
+      "labelColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.sobre.labelColor}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.sobre.iconColor}"
+      }
+    },
+    "pressionado": {
+      "bgColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.pressionado.bgColor}"
+      },
+      "strokeColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.pressionado.strokeColor}"
+      },
+      "labelColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.pressionado.labelColor}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.pressionado.iconColor}"
+      },
+      "sdColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.pressionado.sdColor}"
+      }
+    },
+    "desabilitado": {
+      "strokeColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.desabilitado.strokeColor}"
+      },
+      "labelColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.desabilitado.labelColor}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.desabilitado.iconColor}"
+      }
+    },
+    "carregando": {
+      "strokeColor": {
+        "$type": "color",
+        "$value": "{neutral.contornado.carregando.strokeColor}"
+      }
+    }
+  },
+  "naoPreenchido": {
+    "normal": {
+      "labelColor": {
+        "$type": "color",
+        "$value": "{neutral.naoPreenchido.normal.labelColor}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{neutral.naoPreenchido.normal.iconColor}"
+      }
+    },
+    "emFoco": {
+      "strokeColor": {
+        "$type": "color",
+        "$value": "{neutral.naoPreenchido.emFoco.strokeColor}"
+      },
+      "labelColor": {
+        "$type": "color",
+        "$value": "{neutral.naoPreenchido.emFoco.labelColor}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{neutral.naoPreenchido.emFoco.iconColor}"
+      }
+    },
+    "sobre": {
+      "bgColor": {
+        "$type": "color",
+        "$value": "{neutral.naoPreenchido.sobre.bgColor}"
+      },
+      "labelColor": {
+        "$type": "color",
+        "$value": "{neutral.naoPreenchido.sobre.labelColor}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{neutral.naoPreenchido.sobre.iconColor}"
+      }
+    },
+    "pressionado": {
+      "bgColor": {
+        "$type": "color",
+        "$value": "{neutral.naoPreenchido.pressionado.bgColor}"
+      },
+      "labelColor": {
+        "$type": "color",
+        "$value": "{neutral.naoPreenchido.pressionado.labelColor}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{neutral.naoPreenchido.pressionado.iconColor}"
+      },
+      "sdColor": {
+        "$type": "color",
+        "$value": "{neutral.naoPreenchido.pressionado.sdColor}"
+      }
+    },
+    "desabilitado": {
+      "labelColor": {
+        "$type": "color",
+        "$value": "{neutral.naoPreenchido.desabilitado.labelColor}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{neutral.naoPreenchido.desabilitado.iconColor}"
+      }
+    },
+    "carregando": {
+      "strokeColor": {
+        "$type": "color",
+        "$value": "{neutral.naoPreenchido.carregando.strokeColor}"
+      }
+    }
+  }
+}

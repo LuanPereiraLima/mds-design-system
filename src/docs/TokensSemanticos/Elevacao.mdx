@@ -1,0 +1,42 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { ElevationDemo } from '../components';
+
+<Meta title="Tokens Semânticos/Elevação" />
+
+# Elevação
+
+A elevação separa camadas de conteúdo: indica o que está acima do plano da
+página e, com isso, o que é temporário, focal ou interativo.
+
+Os tokens de sombra (`Shadow.*`, em `src/tokens/css/elevation.css`) mantêm a
+geometria fixa e referenciam a cor `shadow` da marca/tema ativos via
+`var(--shadow)` — por isso a sombra muda de tom junto com a marca, não só de
+tamanho. Troque a marca ou o modo na toolbar e observe o tom recalcular.
+
+## Os três níveis
+
+A entrega traz três níveis, e eles se distinguem **apenas pelo spread** —
+deslocamento (`0px 2px`) e desfoque (`8px`) são iguais nos três. A elevação
+cresce pela área que a sombra ocupa, não pela distância projetada:
+
+<table style={{ width: '100%', fontSize: 14, borderCollapse: 'collapse' }}>
+  <thead>
+    <tr style={{ textAlign: 'left', borderBottom: '2px solid #e0e0e0' }}>
+      <th style={{ padding: '6px 8px' }}>Token</th>
+      <th style={{ padding: '6px 8px' }}>Spread</th>
+      <th style={{ padding: '6px 8px' }}>Uso típico</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>--shadow-01</code></td><td style={{ padding: '6px 8px' }}>0px</td><td style={{ padding: '6px 8px' }}>Repouso — cards e blocos apoiados na página</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>--shadow-02</code></td><td style={{ padding: '6px 8px' }}>2px</td><td style={{ padding: '6px 8px' }}>Interação — hover, arrasto, item selecionado</td></tr>
+    <tr style={{ borderBottom: '1px solid #eee' }}><td style={{ padding: '6px 8px' }}><code>--shadow-03</code></td><td style={{ padding: '6px 8px' }}>4px</td><td style={{ padding: '6px 8px' }}>Sobreposição — modais, sheets, dropdowns</td></tr>
+  </tbody>
+</table>
+
+> ℹ️ As sombras são declaradas em `[data-brand][data-theme]`, e não em
+> `:root`, porque `var(--shadow)` só existe dentro do escopo de marca/tema.
+> A marca também expõe `glow`, um brilho na cor primária — hoje disponível
+> como var de cor (`var(--glow)`), sem token de efeito composto na entrega.
+
+<ElevationDemo vars={['--shadow-01', '--shadow-02', '--shadow-03']} />

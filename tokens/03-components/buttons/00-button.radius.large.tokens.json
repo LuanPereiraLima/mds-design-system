@@ -1,0 +1,6 @@
+{
+  "radius": {
+    "$type": "dimension",
+    "$value": "{large}"
+  }
+}

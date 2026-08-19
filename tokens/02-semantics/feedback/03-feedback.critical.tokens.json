@@ -1,0 +1,30 @@
+{
+  "feedbackModifier": {
+    "$type": "string",
+    "$value": "critical"
+  },
+  "feedback": {
+    "$type": "color",
+    "$value": "{critical}"
+  },
+  "onFeedback": {
+    "$type": "color",
+    "$value": "{onCritical}"
+  },
+  "feedbackContainer": {
+    "$type": "color",
+    "$value": "{criticalContainer}"
+  },
+  "onFeedbackContainer": {
+    "$type": "color",
+    "$value": "{onCriticalContainer}"
+  },
+  "feedbackSubtle": {
+    "$type": "color",
+    "$value": "{criticalSubtle}"
+  },
+  "feedbackMuted": {
+    "$type": "color",
+    "$value": "{criticalMuted}"
+  }
+}

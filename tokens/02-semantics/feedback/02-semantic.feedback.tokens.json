@@ -1,0 +1,30 @@
+{
+  "semanticModifier": {
+    "$type": "string",
+    "$value": "feedback"
+  },
+  "semantic": {
+    "$type": "color",
+    "$value": "{feedback}"
+  },
+  "onSemantic": {
+    "$type": "color",
+    "$value": "{onFeedback}"
+  },
+  "semanticContainer": {
+    "$type": "color",
+    "$value": "{feedbackContainer}"
+  },
+  "onSemanticContainer": {
+    "$type": "color",
+    "$value": "{onFeedbackContainer}"
+  },
+  "semanticSubtle": {
+    "$type": "color",
+    "$value": "{feedbackSubtle}"
+  },
+  "semanticMuted": {
+    "$type": "color",
+    "$value": "{feedbackMuted}"
+  }
+}

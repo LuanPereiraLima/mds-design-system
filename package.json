@@ -1,0 +1,64 @@
+{
+  "name": "mds-design-system",
+  "version": "0.1.0",
+  "description": "Multi-brand Design System (SENSIA, MRV) — tokens + React components",
+  "type": "module",
+  "license": "UNLICENSED",
+  "private": true,
+  "files": [
+    "dist",
+    "src/tokens/css"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./tokens/*.css": "./src/tokens/css/*.css"
+  },
+  "scripts": {
+    "tokens:build": "node scripts/build-tokens.js",
+    "tokens:watch": "node scripts/build-tokens.js --watch",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build": "vite build && tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepare": "npm run tokens:build",
+    "prepublishOnly": "npm run build",
+    "yalc:publish": "yalc publish --private",
+    "yalc:push": "yalc push --private"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {
+    "styled-components": "^6.1.13"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.4.7",
+    "@storybook/addon-themes": "^8.4.7",
+    "@storybook/react": "^8.4.7",
+    "@storybook/react-vite": "^8.4.7",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^25.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "storybook": "^8.4.7",
+    "style-dictionary": "^4.3.0",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}

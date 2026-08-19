@@ -1,0 +1,59 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { ColorGrid, TokenChain } from '../components';
+
+<Meta title="Arquitetura/As 3 camadas" />
+
+# As 3 camadas
+
+Os tokens do MDS são compostos em 3 camadas, cada uma resolvendo pra próxima:
+
+```
+Primitives  →  Brand           →  Semantics
+paleta crua    marca × tema        nome final consumido
+(hex bruto)    (aponta pra raw)    pelos componentes
+```
+
+- **Primitives** — a paleta de cor crua e a escala numérica, sem nenhuma
+  noção de marca ou tema. Não aparecem no output final; só resolvem alias.
+- **Brand** — cada marca mapeia seus papéis de cor (primary, background,
+  attention...) pra um tom específico da paleta crua, um por tema
+  (light/dark).
+- **Semantics** — o nome final, agnóstico de marca, que os componentes de
+  fato importam (`--primary`, `--on-surface`...). O valor por trás desse nome
+  muda conforme a marca/modo ativos, mas o nome nunca muda.
+
+## Exemplo real, ponta a ponta
+
+As cadeias abaixo são traçadas **ao vivo**, lendo os aliases direto dos JSONs
+de origem para a marca e o modo escolhidos na toolbar. O valor final é o mesmo
+nos três elos — o que muda é o nome usado em cada camada.
+
+export const Chains = () => (
+  <>
+    {['primary', 'onSurface', 'attention'].map((field) => (
+      <div key={field}>
+        <p style={{ fontSize: 13, color: '#666', marginBottom: 4 }}>{field}</p>
+        <TokenChain fieldName={field} />
+      </div>
+    ))}
+  </>
+);
+
+<Chains />
+
+Troque a marca ou o modo e veja os elos recalcularem: o nome intermediário
+muda (`mrv.primary` vira `sensia.primary`, e o elo de primitiva aponta para
+outro tom da paleta), mas a estrutura de três elos é sempre a mesma.
+
+> ℹ️ Nem todo papel resolve por alias simples. `shadow`, por exemplo, é um
+> literal `rgba(...)` na camada de tema — nesses casos a cadeia não tem três
+> elos e o componente diz isso em vez de inventar um.
+
+## O que o componente enxerga
+
+O build resolve essa cadeia inteira e emite **apenas o valor final** como CSS
+custom property. Os swatches abaixo mostram esse valor final para a marca/modo
+ativos — o nome (`--primary`, `--on-surface`, `--attention`) nunca muda, só o
+hex por trás dele.
+
+<ColorGrid names={['primary', 'onSurface', 'attention']} />

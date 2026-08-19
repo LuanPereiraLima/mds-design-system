@@ -1,0 +1,40 @@
+{
+  "Shadow": {
+    "01": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "2px",
+          "blur": "8px",
+          "spread": "0px",
+          "color": "{shadow}"
+        }
+      ]
+    },
+    "02": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "2px",
+          "blur": "8px",
+          "spread": "2px",
+          "color": "{shadow}"
+        }
+      ]
+    },
+    "03": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "2px",
+          "blur": "8px",
+          "spread": "4px",
+          "color": "{shadow}"
+        }
+      ]
+    }
+  }
+}

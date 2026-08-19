@@ -1,0 +1,30 @@
+{
+  "neutralModifier": {
+    "$type": "string",
+    "$value": "surface"
+  },
+  "neutral": {
+    "$type": "color",
+    "$value": "{surface}"
+  },
+  "onNeutral": {
+    "$type": "color",
+    "$value": "{onSurface}"
+  },
+  "neutralContainer": {
+    "$type": "color",
+    "$value": "{mutedOnSurface}"
+  },
+  "onNeutralContainer": {
+    "$type": "color",
+    "$value": "{subtleOnSurface}"
+  },
+  "neutralSubtle": {
+    "$type": "color",
+    "$value": "{surfaceSubtle}"
+  },
+  "neutralMuted": {
+    "$type": "color",
+    "$value": "{surfaceMuted}"
+  }
+}

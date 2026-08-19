@@ -1,0 +1,59 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { BRANDS, MODES } from '../components/useBrandTheme';
+
+<Meta title="Arquitetura/Como o build funciona" />
+
+# Como o build funciona
+
+`scripts/build-tokens.js` (rodado por `npm run tokens:build`) itera
+**{BRANDS.length} marcas × {MODES.length} modos** = {BRANDS.length * MODES.length}
+combinações. Para cada marca × modo, o Style Dictionary recebe como fontes os
+primitivos crus, o arquivo do tema (light/dark) e o arquivo da marca; só os
+tokens originados de `01-brands/` entram no CSS final (filtro `fromBrand`).
+Além disso, gera os tokens de componente (`button.css`, `input.css`) e as
+camadas semânticas brand-agnósticas ou derivadas: `sizing.css` (espaçamento,
+borda, raios, breakpoints), `elevation.css` (sombras), `typography.css`
+(escala por marca) e `semantics.css` (papéis `visual`/`feedback`/`neutral`).
+
+## Saída (web)
+
+Este é um design system **web-only**: o build emite CSS custom properties
+escopadas em `[data-brand][data-theme]`, mais um mapa TS tipado
+(`src/tokens/index.ts`) e um módulo com todo o CSS concatenado
+(`src/tokens/css.generated.ts`), injetado em runtime pelo `BrandProvider`.
+
+## Árvore de saída
+
+Uma folha de estilo por marca × modo, mais os tokens de componente:
+
+export const CssTree = () => {
+  const files = [
+    ...BRANDS.flatMap((b) => MODES.map((m) => `${b.key}.${m}.css`)),
+    'button.css',
+    'input.css',
+    'sizing.css',
+    'elevation.css',
+    'typography.css',
+    'semantics.css',
+  ];
+  return (
+    <div style={{ fontFamily: 'monospace', fontSize: 13, background: '#f5f5f5', padding: 16, borderRadius: 8 }}>
+      {files.map((f) => (
+        <div key={f}>src/tokens/css/{f}</div>
+      ))}
+    </div>
+  );
+};
+
+<CssTree />
+
+## Rodando o build
+
+```bash
+npm run tokens:build   # gera os CSS de token + css.generated.ts
+npm run build          # builda a lib (vite lib + tsc) para dist/
+npm run storybook      # sobe a documentação viva
+```
+
+**Rode `npm run tokens:build` após qualquer mudança em `tokens/` para
+regenerar os CSS que esta documentação (e a lib) consomem.**

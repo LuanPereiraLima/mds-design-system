@@ -1,0 +1,278 @@
+{
+  "brandModifier": {
+    "$type": "string",
+    "$value": "mrv"
+  },
+  "primary": {
+    "$type": "color",
+    "$value": "{mrv.primary}"
+  },
+  "onPrimary": {
+    "$type": "color",
+    "$value": "{mrv.onPrimary}"
+  },
+  "primaryContainer": {
+    "$type": "color",
+    "$value": "{mrv.primaryContainer}"
+  },
+  "onPrimaryContainer": {
+    "$type": "color",
+    "$value": "{mrv.onPrimaryContainer}"
+  },
+  "primarySubtle": {
+    "$type": "color",
+    "$value": "{mrv.primarySubtle}"
+  },
+  "primaryMuted": {
+    "$type": "color",
+    "$value": "{mrv.primaryMuted}"
+  },
+  "secondary": {
+    "$type": "color",
+    "$value": "{mrv.secondary}"
+  },
+  "onSecondary": {
+    "$type": "color",
+    "$value": "{mrv.onSecondary}"
+  },
+  "secondaryContainer": {
+    "$type": "color",
+    "$value": "{mrv.secondaryContainer}"
+  },
+  "onSecondaryContainer": {
+    "$type": "color",
+    "$value": "{mrv.onSecondaryContainer}"
+  },
+  "secondarySubtle": {
+    "$type": "color",
+    "$value": "{mrv.secondarySubtle}"
+  },
+  "secondaryMuted": {
+    "$type": "color",
+    "$value": "{mrv.secondaryMuted}"
+  },
+  "tertiary": {
+    "$type": "color",
+    "$value": "{mrv.tertiary}"
+  },
+  "onTertiary": {
+    "$type": "color",
+    "$value": "{mrv.onTertiary}"
+  },
+  "tertiaryContainer": {
+    "$type": "color",
+    "$value": "{mrv.tertiaryContainer}"
+  },
+  "onTertiaryContainer": {
+    "$type": "color",
+    "$value": "{mrv.onTertiaryContainer}"
+  },
+  "tertiarySubtle": {
+    "$type": "color",
+    "$value": "{mrv.tertiarySubtle}"
+  },
+  "tertiaryMuted": {
+    "$type": "color",
+    "$value": "{mrv.tertiaryMuted}"
+  },
+  "complementary": {
+    "$type": "color",
+    "$value": "{mrv.complementary}"
+  },
+  "onComplementary": {
+    "$type": "color",
+    "$value": "{mrv.onComplementary}"
+  },
+  "complementaryContainer": {
+    "$type": "color",
+    "$value": "{mrv.complementaryContainer}"
+  },
+  "onComplementaryContainer": {
+    "$type": "color",
+    "$value": "{mrv.onComplementaryContainer}"
+  },
+  "complementarySubtle": {
+    "$type": "color",
+    "$value": "{mrv.complementarySubtle}"
+  },
+  "complementaryMuted": {
+    "$type": "color",
+    "$value": "{mrv.complementaryMuted}"
+  },
+  "background": {
+    "$type": "color",
+    "$value": "{mrv.background}"
+  },
+  "backgroundSubtle": {
+    "$type": "color",
+    "$value": "{mrv.backgroundSubtle}"
+  },
+  "backgroundMuted": {
+    "$type": "color",
+    "$value": "{mrv.backgroundMuted}"
+  },
+  "onBackground": {
+    "$type": "color",
+    "$value": "{mrv.onBackground}"
+  },
+  "subtleOnBackground": {
+    "$type": "color",
+    "$value": "{mrv.subtleOnBackground}"
+  },
+  "mutedOnBackground": {
+    "$type": "color",
+    "$value": "{mrv.mutedOnBackground}"
+  },
+  "surface": {
+    "$type": "color",
+    "$value": "{mrv.surface}"
+  },
+  "surfaceSubtle": {
+    "$type": "color",
+    "$value": "{mrv.surfaceSubtle}"
+  },
+  "surfaceMuted": {
+    "$type": "color",
+    "$value": "{mrv.surfaceMuted}"
+  },
+  "onSurface": {
+    "$type": "color",
+    "$value": "{mrv.onSurface}"
+  },
+  "subtleOnSurface": {
+    "$type": "color",
+    "$value": "{mrv.subtleOnSurface}"
+  },
+  "mutedOnSurface": {
+    "$type": "color",
+    "$value": "{mrv.mutedOnSurface}"
+  },
+  "outline": {
+    "$type": "color",
+    "$value": "{mrv.outline}"
+  },
+  "outlineMuted": {
+    "$type": "color",
+    "$value": "{mrv.outlineMuted}"
+  },
+  "outlineEmphasized": {
+    "$type": "color",
+    "$value": "{mrv.outlineEmphasized}"
+  },
+  "inverse": {
+    "$type": "color",
+    "$value": "{mrv.inverse}"
+  },
+  "inversePrimary": {
+    "$type": "color",
+    "$value": "{mrv.inversePrimary}"
+  },
+  "inverseSecondary": {
+    "$type": "color",
+    "$value": "{mrv.inverseSecondary}"
+  },
+  "attention": {
+    "$type": "color",
+    "$value": "{mrv.attention}"
+  },
+  "onAttention": {
+    "$type": "color",
+    "$value": "{mrv.onAttention}"
+  },
+  "attentionContainer": {
+    "$type": "color",
+    "$value": "{mrv.attentionContainer}"
+  },
+  "onAttentionContainer": {
+    "$type": "color",
+    "$value": "{mrv.onAttentionContainer}"
+  },
+  "attentionSubtle": {
+    "$type": "color",
+    "$value": "{mrv.attentionSubtle}"
+  },
+  "attentionMuted": {
+    "$type": "color",
+    "$value": "{mrv.attentionMuted}"
+  },
+  "success": {
+    "$type": "color",
+    "$value": "{mrv.success}"
+  },
+  "onSuccess": {
+    "$type": "color",
+    "$value": "{mrv.onSuccess}"
+  },
+  "successContainer": {
+    "$type": "color",
+    "$value": "{mrv.successContainer}"
+  },
+  "onSuccessContainer": {
+    "$type": "color",
+    "$value": "{mrv.onSuccessContainer}"
+  },
+  "successSubtle": {
+    "$type": "color",
+    "$value": "{mrv.successSubtle}"
+  },
+  "successMuted": {
+    "$type": "color",
+    "$value": "{mrv.successMuted}"
+  },
+  "caution": {
+    "$type": "color",
+    "$value": "{mrv.caution}"
+  },
+  "onCaution": {
+    "$type": "color",
+    "$value": "{mrv.onCaution}"
+  },
+  "cautionContainer": {
+    "$type": "color",
+    "$value": "{mrv.cautionContainer}"
+  },
+  "onCautionContainer": {
+    "$type": "color",
+    "$value": "{mrv.onCautionContainer}"
+  },
+  "cautionSubtle": {
+    "$type": "color",
+    "$value": "{mrv.cautionSubtle}"
+  },
+  "cautionMuted": {
+    "$type": "color",
+    "$value": "{mrv.cautionMuted}"
+  },
+  "critical": {
+    "$type": "color",
+    "$value": "{mrv.critical}"
+  },
+  "onCritical": {
+    "$type": "color",
+    "$value": "{mrv.onCritical}"
+  },
+  "criticalContainer": {
+    "$type": "color",
+    "$value": "{mrv.criticalContainer}"
+  },
+  "onCriticalContainer": {
+    "$type": "color",
+    "$value": "{mrv.onCriticalContainer}"
+  },
+  "criticalSubtle": {
+    "$type": "color",
+    "$value": "{mrv.criticalSubtle}"
+  },
+  "criticalMuted": {
+    "$type": "color",
+    "$value": "{mrv.criticalMuted}"
+  },
+  "shadow": {
+    "$type": "color",
+    "$value": "{mrv.Shadow}"
+  },
+  "glow": {
+    "$type": "color",
+    "$value": "{mrv.Glow}"
+  }
+}

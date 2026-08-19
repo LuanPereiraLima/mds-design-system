@@ -1,0 +1,22 @@
+{
+  "none": {
+    "$type": "dimension",
+    "$value": "{0}"
+  },
+  "min": {
+    "$type": "dimension",
+    "$value": "{0_25}"
+  },
+  "small": {
+    "$type": "dimension",
+    "$value": "{0_37}"
+  },
+  "medium": {
+    "$type": "dimension",
+    "$value": "{0_5}"
+  },
+  "large": {
+    "$type": "dimension",
+    "$value": "{1}"
+  }
+}
